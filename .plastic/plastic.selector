@@ -1,0 +1,4 @@
+repository "Project Alpha@Riplestripe@cloud"
+  path "/"
+    br "/main"
+    co "/main"
