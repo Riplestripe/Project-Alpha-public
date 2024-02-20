@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
 public class InventoryManager : MonoBehaviour
 {
+    AudioSource audioSource;
+    public AudioClip soundOpen = null;
+    public AudioClip soundClose = null;
     public GameObject InventoryMenu;
     public bool isMenuActive;
     private InputManager inputManager;
@@ -16,29 +20,48 @@ public class InventoryManager : MonoBehaviour
         
         Player = GameObject.FindGameObjectWithTag("Player");
         inputManager = Player.GetComponent<InputManager>();
+        audioSource = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
         if (isCursorActive)
         {
             Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
-        else Cursor.visible = false;
+        else
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
 
-        if(inputManager.player.Inventory.triggered)
+        }
+
+        if (inputManager.player.Inventory.triggered)
         { 
             isMenuActive = !isMenuActive;            
             isCursorActive = !isCursorActive;
+            if(isMenuActive)
+            {
+                audioSource.PlayOneShot(soundClose);
+
+            }
+            else audioSource.PlayOneShot(soundOpen);
+
         }
-        if(isMenuActive)
+        if (isMenuActive)
         {
+            Player.GetComponent<PlayerLook>().isLocked = true;
             InventoryMenu.SetActive(true);
         }
-        else InventoryMenu.SetActive(false);
+        else
+        {
+            Player.GetComponent<PlayerLook>().isLocked = false;
+            InventoryMenu.SetActive(false);
+        };
     }
 
     public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)

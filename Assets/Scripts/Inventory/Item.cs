@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Item : Interactble
 {
+    [SerializeField]
+    public AudioClip sound;
+     AudioSource audioSource;
 
     [SerializeField]
     private string itemname;
@@ -23,11 +26,14 @@ public class Item : Interactble
     void Start()
     {
         inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
+        audioSource = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
+
     }
 
     protected override void Interact()
     {
         inventoryManager.AddItem(itemname, quantity, sprite, itemDescription);
+        audioSource.PlayOneShot(sound);
         Destroy(gameObject);
     }
 

@@ -36,7 +36,6 @@ public class InputManager : MonoBehaviour
         player.Sprint.performed += ctx => runPressed = ctx.ReadValueAsButton();
         player.Jump.performed += ctx => jumpPressed = ctx.ReadValueAsButton();
         player.Shoot.performed += ctx => ShootPressed = ctx.ReadValueAsButton();
-        player.Movement.performed += ctx => walkPressed = ctx.ReadValueAsButton();
     }
 
     private void LateUpdate()

@@ -20,46 +20,46 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   screenBendX:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1000
   screenBendY:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1000
   vignetteAmount:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   vignetteSize:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   vignetteRounding:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 5.26
   vignetteSmoothing:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.2
   scanlinesDensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   scanlinesSpeed:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   noiseAmount:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   chromaticRed:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 0, y: 0}
   chromaticGreen:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 0, y: 0}
   chromaticBlue:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 0, y: 0}
   grilleOpacity:
     m_OverrideState: 1
     m_Value: 0
   grilleCounterOpacity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.2
   grilleResolution:
     m_OverrideState: 1
@@ -68,16 +68,16 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   grilleUvRotation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   grilleBrightness:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 15
   grilleUvMidPoint:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.5
   grilleShift:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 0, y: 0, z: 0}
 --- !u!114 &-2649047749314681680
 MonoBehaviour:
@@ -93,13 +93,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   widthPixelation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1028
   heightPixelation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 512
   colorPrecision:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 16
 --- !u!114 &-758010384845797820
 MonoBehaviour:
@@ -115,16 +115,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   patternIndex:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 2
   ditherThreshold:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 10
   ditherStrength:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   ditherScale:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 2
 --- !u!114 &11400000
 MonoBehaviour:
@@ -157,32 +157,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   fogDensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 57.1
   fogDistance:
-    m_OverrideState: 1
-    m_Value: 5.36
+    m_OverrideState: 0
+    m_Value: 248.57
   fogColor:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 0.7169812, g: 0, b: 0, a: 0}
   ambientColor:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0}
   fogNear:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 75.6
   fogFar:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 82.33
   fogAltScale:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 9
   fogThinning:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 458
   noiseScale:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 8.48
   noiseStrength:
     m_OverrideState: 1
-    m_Value: 0.01
+    m_Value: 0
