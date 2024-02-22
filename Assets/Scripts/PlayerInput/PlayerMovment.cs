@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private bool lerpCrouching = false;
     private float crouchTimer = 1f;
     public bool movementPressed;
-    private Vector3 moveDir = Vector3.zero;
+    public  Vector3 moveDir = Vector3.zero;
 
     // Start is called before the first frame update
     void Start()
@@ -29,10 +29,7 @@ public class PlayerMovement : MonoBehaviour
     
     // Update is called once per frame
     void Update()
-    {
-
-        
-        
+    {        
         isGrounded = characterController.isGrounded;
         if (lerpCrouching)
         {
