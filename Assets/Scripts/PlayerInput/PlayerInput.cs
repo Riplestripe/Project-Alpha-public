@@ -98,15 +98,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Trow"",
-                    ""type"": ""Button"",
-                    ""id"": ""e9b9986d-6bae-48ed-8ed9-e44513d9040e"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -349,17 +340,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Inventory"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""87b05582-55f2-45be-a219-f357fcb1f73c"",
-                    ""path"": ""<Keyboard>/g"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Trow"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -894,7 +874,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         m_Player_Interact = m_Player.FindAction("Interact", throwIfNotFound: true);
         m_Player_Shoot = m_Player.FindAction("Shoot", throwIfNotFound: true);
         m_Player_Inventory = m_Player.FindAction("Inventory", throwIfNotFound: true);
-        m_Player_Trow = m_Player.FindAction("Trow", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -976,7 +955,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Interact;
     private readonly InputAction m_Player_Shoot;
     private readonly InputAction m_Player_Inventory;
-    private readonly InputAction m_Player_Trow;
     public struct PlayerActions
     {
         private @PlayerInput m_Wrapper;
@@ -989,7 +967,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         public InputAction @Interact => m_Wrapper.m_Player_Interact;
         public InputAction @Shoot => m_Wrapper.m_Player_Shoot;
         public InputAction @Inventory => m_Wrapper.m_Player_Inventory;
-        public InputAction @Trow => m_Wrapper.m_Player_Trow;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1023,9 +1000,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Inventory.started += instance.OnInventory;
             @Inventory.performed += instance.OnInventory;
             @Inventory.canceled += instance.OnInventory;
-            @Trow.started += instance.OnTrow;
-            @Trow.performed += instance.OnTrow;
-            @Trow.canceled += instance.OnTrow;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1054,9 +1028,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Inventory.started -= instance.OnInventory;
             @Inventory.performed -= instance.OnInventory;
             @Inventory.canceled -= instance.OnInventory;
-            @Trow.started -= instance.OnTrow;
-            @Trow.performed -= instance.OnTrow;
-            @Trow.canceled -= instance.OnTrow;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1202,7 +1173,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         void OnInteract(InputAction.CallbackContext context);
         void OnShoot(InputAction.CallbackContext context);
         void OnInventory(InputAction.CallbackContext context);
-        void OnTrow(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
