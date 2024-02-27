@@ -70,3 +70,19 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Scripts/Environment/teleport.cs.meta
+Assets/Scripts/Environment/teleport.cs
+Assets/Scripts/Environment.meta
+Assets/Scenes/Poligon.unity
+Assets/Scenes/FirstLevel.unity
+Assets/prefabs/Models/Danja/Underground.prefab
+Assets/Plugins/SteamAudio/Resources/SteamAudioSettings.asset.meta
+Assets/Plugins/SteamAudio/Resources/Materials/Concrete.asset.meta
+Assets/Plugins/SteamAudio/Resources/Materials/Ceramic.asset.meta
+Assets/Plugins/SteamAudio/Resources/Materials/Carpet.asset.meta
+Assets/Plugins/SteamAudio/Resources/Materials/Brick.asset.meta
+Assets/Plugins/FMOD/images/FMODLogoBlack.png.meta
+Assets/FMODBanks.meta
+Assets/Experiment_1.asset.meta
+.plastic/plastic.wktree
+.plastic/plastic.changes

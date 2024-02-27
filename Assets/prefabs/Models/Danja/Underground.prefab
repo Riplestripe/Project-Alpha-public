@@ -15814,6 +15814,7 @@ MeshCollider:
   m_Mesh: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2765942172993081617
 GameObject:
   m_ObjectHideFlags: 0
@@ -16709,6 +16710,8 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+=======
+>>>>>>> parent of 38b758d (Механики)
 =======
 >>>>>>> parent of 38b758d (Механики)
 =======
@@ -41359,6 +41362,7 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 16.028, z: 0}
 --- !u!1 &4956841104997208281
 GameObject:
@@ -43856,6 +43860,9 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 38b758d (Механики)
 =======
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> parent of 38b758d (Механики)
