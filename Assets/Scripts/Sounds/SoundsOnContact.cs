@@ -15,7 +15,7 @@ public class SoundsOnContact : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
 
-        audioSource.PlayOneShot(sounds[Random.Range(0, sounds.Length - 1)]);
+        audioSource.PlayOneShot(sounds[Random.Range(0, sounds.Length)]);
 
     }
 }

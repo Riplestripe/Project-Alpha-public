@@ -1,4 +1,3 @@
-repository "Project Alpha@Riplestripe@cloud"
+rep "Project Alpha@Riplestripe@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"

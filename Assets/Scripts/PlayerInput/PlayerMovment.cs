@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Experimental.Rendering;
 using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private float crouchTimer = 1f;
     public bool movementPressed;
     public  Vector3 moveDir = Vector3.zero;
+    public bool cantCrouching;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +31,19 @@ public class PlayerMovement : MonoBehaviour
     
     // Update is called once per frame
     void Update()
-    {        
+    {
+        if (Physics.Raycast(transform.position, Vector3.up, out var hit2, characterController.height + 1f, ~LayerMask.GetMask("Player")))
+        {
+            if (hit2.collider != null)
+            {
+                cantCrouching = true;
+            }
+           
+        }
+        if (cantCrouching == true && crouching == true && hit2.collider == null)
+        {
+            cantCrouching = false;
+        }
         isGrounded = characterController.isGrounded;
         if (lerpCrouching)
         {
@@ -110,7 +124,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void Crouch()
     {
-        crouching = !crouching;
+        //crouching = !crouching;
+        if (crouching && !cantCrouching)
+        {
+            crouching = false;
+        }
+        else crouching = true;
         crouchTimer = 0f;
         lerpCrouching = true;
     }
@@ -125,7 +144,6 @@ public class PlayerMovement : MonoBehaviour
         
     }
   
-   
-    
+        
     
 }
