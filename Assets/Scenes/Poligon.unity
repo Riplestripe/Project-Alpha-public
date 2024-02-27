@@ -32615,6 +32615,7 @@ PrefabInstance:
     m_Modifications:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     - target: {fileID: 288318288880238859, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: promtText
@@ -32767,6 +32768,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
 =======
 >>>>>>> parent of 38b758d (Механики)
+=======
+>>>>>>> parent of 38b758d (Механики)
     - target: {fileID: 2379538115672756534, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: m_Name
       value: NewPlayer
@@ -32827,6 +32830,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 3404917107375355085, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: m_AnchorMax.y
@@ -32961,6 +32965,8 @@ PrefabInstance:
 >>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
 =======
 >>>>>>> parent of 38b758d (Механики)
+=======
+>>>>>>> parent of 38b758d (Механики)
     - target: {fileID: 6282980356459566392, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -32977,6 +32983,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 6465080786884281338, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: m_AnchorMax.y
@@ -33121,6 +33128,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 38b758d (Механики)
 =======
 >>>>>>> parent of 38b758d (Механики)
     - target: {fileID: 8097078400114957106, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}

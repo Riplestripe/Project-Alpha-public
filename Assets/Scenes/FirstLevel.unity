@@ -8795,6 +8795,7 @@ Mesh:
     path: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &183842960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8972,6 +8973,8 @@ Rigidbody:
   m_Constraints: 126
   m_CollisionDetection: 0
 >>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
+=======
+>>>>>>> parent of 38b758d (Механики)
 =======
 >>>>>>> parent of 38b758d (Механики)
 --- !u!850595691 &208689858
@@ -16948,6 +16951,7 @@ Mesh:
     path: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &517398914
 GameObject:
 =======
@@ -17161,6 +17165,8 @@ MonoBehaviour:
     size: 0
     path: 
 >>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
+=======
+>>>>>>> parent of 38b758d (Механики)
 =======
 >>>>>>> parent of 38b758d (Механики)
 --- !u!1001 &524151293
@@ -33984,6 +33990,7 @@ MonoBehaviour:
       maskAndChannels: 234881031
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     surfaceParameter: 35530
 =======
 <<<<<<< HEAD
@@ -33996,6 +34003,9 @@ MonoBehaviour:
     surfaceParameter: 40604
 >>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
 >>>>>>> bf7eecdb80a8959f3440f0163f0e2b6928bdae28
+=======
+    surfaceParameter: 35548
+>>>>>>> parent of 38b758d (Механики)
 =======
     surfaceParameter: 35548
 >>>>>>> parent of 38b758d (Механики)
@@ -40558,6 +40568,7 @@ MonoBehaviour:
       maskAndChannels: 8
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     surfaceParameter: 34182
 =======
 <<<<<<< HEAD
@@ -40570,6 +40581,9 @@ MonoBehaviour:
     surfaceParameter: 34200
 >>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
 >>>>>>> bf7eecdb80a8959f3440f0163f0e2b6928bdae28
+=======
+    surfaceParameter: 34316
+>>>>>>> parent of 38b758d (Механики)
 =======
     surfaceParameter: 34316
 >>>>>>> parent of 38b758d (Механики)
@@ -41729,6 +41743,7 @@ Mesh:
     path: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1926440951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42062,6 +42077,8 @@ Mesh:
     size: 0
     path: 
 >>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
+=======
+>>>>>>> parent of 38b758d (Механики)
 =======
 >>>>>>> parent of 38b758d (Механики)
 --- !u!1 &1988947308
@@ -46537,6 +46554,7 @@ SceneRoots:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1926440951}
   - {fileID: 183842960}
   - {fileID: 1929715772}
@@ -46547,6 +46565,9 @@ SceneRoots:
 =======
   - {fileID: 194861513}
 >>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
+=======
+  - {fileID: 288165621}
+>>>>>>> parent of 38b758d (Механики)
 =======
   - {fileID: 288165621}
 >>>>>>> parent of 38b758d (Механики)
