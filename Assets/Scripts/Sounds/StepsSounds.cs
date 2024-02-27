@@ -6,7 +6,7 @@ public class StepsSounds : MonoBehaviour
 {
     [Header("Sounds")]
     public AudioClip[] steps;
-    public AudioClip[] stepsOnGlass;
+    public AudioClip[] stepsOnGlass, stepsOnWood, stepsOnGrass, stepsOnMetall, stepsOnPathRoad;
     AudioSource audioSource;
     float footStepsTimer = 0;
     public float offsetTimer;
@@ -42,6 +42,18 @@ public class StepsSounds : MonoBehaviour
                         break;
                     case "glass":
                         audioSource.PlayOneShot(stepsOnGlass[Random.Range(0, stepsOnGlass.Length - 1)]);
+                        break;
+                    case "metall":
+                        audioSource.PlayOneShot(stepsOnMetall[Random.Range(0, stepsOnGlass.Length - 1)]);
+                        break;
+                    case "wood":
+                        audioSource.PlayOneShot(stepsOnWood[Random.Range(0, stepsOnGlass.Length - 1)]);
+                        break;
+                    case "pawn road":
+                        audioSource.PlayOneShot(stepsOnPathRoad[Random.Range(0, stepsOnGlass.Length - 1)]);
+                        break;
+                    case "grass":
+                        audioSource.PlayOneShot(stepsOnGrass[Random.Range(0, stepsOnGlass.Length - 1)]);
                         break;
                 }
 

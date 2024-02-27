@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 782833e467888ad40889e5f95aa5c8ce
+=======
+guid: 9cf74d8fd5a396346bd8c3dc87194673
+>>>>>>> bf7eecdb80a8959f3440f0163f0e2b6928bdae28
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 1
+      settings:
+        CPU: x86_64
+        OS: Windows
+  - first:
+      Standalone: Win64
+    second:
+      enabled: 1
+      settings: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

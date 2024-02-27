@@ -32136,10 +32136,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
+=======
     - target: {fileID: 288318288880238859, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: promtText
       value: 
       objectReference: {fileID: 2027630042}
+>>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
     - target: {fileID: 472346103355584156, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -32480,6 +32483,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
     - target: {fileID: 5962978366264065593, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: m_Height
       value: 2
@@ -32496,6 +32501,7 @@ PrefabInstance:
       propertyPath: m_Direction
       value: 1
       objectReference: {fileID: 0}
+>>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
     - target: {fileID: 6282980356459566392, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -32560,6 +32566,29 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 7226534540769585948, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
+      propertyPath: steps.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226534540769585948, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
+      propertyPath: steps.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 065f478bc1b2af644bfb6764abcaca81, type: 3}
+    - target: {fileID: 7226534540769585948, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
+      propertyPath: steps.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ef68e64e45bfcc45a0a73027939c4dc, type: 3}
+    - target: {fileID: 7226534540769585948, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
+      propertyPath: steps.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ef68e64e45bfcc45a0a73027939c4dc, type: 3}
+    - target: {fileID: 7226534540769585948, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
+      propertyPath: steps.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+=======
+>>>>>>> 38b758dbe4c929bca4b23c85cc818c1f224159b6
     - target: {fileID: 7445782937139947306, guid: 9a4d479d147eebc469757d5979e128f0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
