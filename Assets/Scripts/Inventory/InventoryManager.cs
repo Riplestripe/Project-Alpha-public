@@ -14,7 +14,7 @@ public class InventoryManager : MonoBehaviour
     private InputManager inputManager;
     private GameObject Player;
     public ItemSlot[] itemSlot;
-    private bool isCursorActive = false;
+    public bool isCursorActive = false;
     void Start()
     {
         
@@ -27,51 +27,40 @@ public class InventoryManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (isCursorActive)
+        if(isMenuActive)
         {
-            Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
-        else
-        {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
-
-        }
+        InventoryMenu.SetActive(isMenuActive);
 
         if (inputManager.player.Inventory.triggered)
-        { 
+        {   
             isMenuActive = !isMenuActive;            
-            isCursorActive = !isCursorActive;
-            if(isMenuActive)
+            Player.GetComponent<PlayerLook>().isLocked = !Player.GetComponent<PlayerLook>().isLocked;
+
+                        
+            if (isMenuActive)
             {
                 audioSource.PlayOneShot(soundClose);
-
+                
             }
             else audioSource.PlayOneShot(soundOpen);
+         
+
 
         }
-        if (isMenuActive)
-        {
-            Player.GetComponent<PlayerLook>().isLocked = true;
-            InventoryMenu.SetActive(true);
-        }
-        else
-        {
-            Player.GetComponent<PlayerLook>().isLocked = false;
-            InventoryMenu.SetActive(false);
-        };
+       
     }
 
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
+    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription, ItemSlot.Type type)
     {
 
         for (int i = 0; i < itemSlot.Length; i++) 
         {
             if (itemSlot[i].isFull == false)
             {
-                itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
+                itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription, type);
                 return;
             }
             

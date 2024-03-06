@@ -24,6 +24,11 @@ public class PlayerMovement : MonoBehaviour
     public bool cantCrouching;
 
     // Start is called before the first frame update
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        UnityEngine.Cursor.visible = false;
+    }
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -144,6 +149,11 @@ public class PlayerMovement : MonoBehaviour
         
     }
   
-        
+    public void Teleport(Vector3 pos, Quaternion quaternion)
+    {
+        transform.position = pos;
+        playerVelocity = Vector3.zero;
+        Physics.SyncTransforms();
+    }
     
 }

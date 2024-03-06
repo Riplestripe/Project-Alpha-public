@@ -83,7 +83,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""Shoot"",
-                    ""type"": ""PassThrough"",
+                    ""type"": ""Button"",
                     ""id"": ""38835524-5fb2-423e-bd4d-9d9475550d01"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
@@ -106,6 +106,33 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Reload"",
+                    ""type"": ""Button"",
+                    ""id"": ""22240ab1-1b99-43e7-b26f-a92a9641dafa"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ShootBurst"",
+                    ""type"": ""Button"",
+                    ""id"": ""5570cb5e-49e3-4be9-9a9e-ebd87873ec3c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Hold"",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Zoom/Aim"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""4c93bf2d-1042-4ab4-a91e-ecc393480fa7"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Hold"",
                     ""initialStateCheck"": false
                 }
             ],
@@ -360,6 +387,39 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Trow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5afa5bd3-3550-4e4d-b783-58584b6904cd"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Reload"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0b2c56ed-591d-4122-89f5-98ffb01942be"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ShootBurst"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""92b8aeb5-050d-4d66-b15e-c7b1045d2a1f"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Zoom/Aim"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -895,6 +955,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         m_Player_Shoot = m_Player.FindAction("Shoot", throwIfNotFound: true);
         m_Player_Inventory = m_Player.FindAction("Inventory", throwIfNotFound: true);
         m_Player_Trow = m_Player.FindAction("Trow", throwIfNotFound: true);
+        m_Player_Reload = m_Player.FindAction("Reload", throwIfNotFound: true);
+        m_Player_ShootBurst = m_Player.FindAction("ShootBurst", throwIfNotFound: true);
+        m_Player_ZoomAim = m_Player.FindAction("Zoom/Aim", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -977,6 +1040,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Shoot;
     private readonly InputAction m_Player_Inventory;
     private readonly InputAction m_Player_Trow;
+    private readonly InputAction m_Player_Reload;
+    private readonly InputAction m_Player_ShootBurst;
+    private readonly InputAction m_Player_ZoomAim;
     public struct PlayerActions
     {
         private @PlayerInput m_Wrapper;
@@ -990,6 +1056,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         public InputAction @Shoot => m_Wrapper.m_Player_Shoot;
         public InputAction @Inventory => m_Wrapper.m_Player_Inventory;
         public InputAction @Trow => m_Wrapper.m_Player_Trow;
+        public InputAction @Reload => m_Wrapper.m_Player_Reload;
+        public InputAction @ShootBurst => m_Wrapper.m_Player_ShootBurst;
+        public InputAction @ZoomAim => m_Wrapper.m_Player_ZoomAim;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1026,6 +1095,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Trow.started += instance.OnTrow;
             @Trow.performed += instance.OnTrow;
             @Trow.canceled += instance.OnTrow;
+            @Reload.started += instance.OnReload;
+            @Reload.performed += instance.OnReload;
+            @Reload.canceled += instance.OnReload;
+            @ShootBurst.started += instance.OnShootBurst;
+            @ShootBurst.performed += instance.OnShootBurst;
+            @ShootBurst.canceled += instance.OnShootBurst;
+            @ZoomAim.started += instance.OnZoomAim;
+            @ZoomAim.performed += instance.OnZoomAim;
+            @ZoomAim.canceled += instance.OnZoomAim;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1057,6 +1135,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Trow.started -= instance.OnTrow;
             @Trow.performed -= instance.OnTrow;
             @Trow.canceled -= instance.OnTrow;
+            @Reload.started -= instance.OnReload;
+            @Reload.performed -= instance.OnReload;
+            @Reload.canceled -= instance.OnReload;
+            @ShootBurst.started -= instance.OnShootBurst;
+            @ShootBurst.performed -= instance.OnShootBurst;
+            @ShootBurst.canceled -= instance.OnShootBurst;
+            @ZoomAim.started -= instance.OnZoomAim;
+            @ZoomAim.performed -= instance.OnZoomAim;
+            @ZoomAim.canceled -= instance.OnZoomAim;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1203,6 +1290,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         void OnShoot(InputAction.CallbackContext context);
         void OnInventory(InputAction.CallbackContext context);
         void OnTrow(InputAction.CallbackContext context);
+        void OnReload(InputAction.CallbackContext context);
+        void OnShootBurst(InputAction.CallbackContext context);
+        void OnZoomAim(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

@@ -23,7 +23,6 @@ public class InputManager : MonoBehaviour
 
     private void Awake()
     {
-        Cursor.visible = false;
         animator = GetComponent<Animator>();
         
         playerInput = new PlayerInput();

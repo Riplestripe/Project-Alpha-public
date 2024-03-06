@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Poligon.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/FirstLevel.unity
+    guid: 06f58427e4f1cf2428ca4d29612bd8c3
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 06b263e9ffc23c848bb35fba121cb767, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: b7e66cbc969ddd041872b877e10af834, type: 2}

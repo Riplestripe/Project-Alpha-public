@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.ProBuilder.Shapes;
 
 public class DragObject : Interactble
 {
@@ -12,6 +15,7 @@ public class DragObject : Interactble
     public GameObject player;
     private InputManager inputManager;
     public float trowStr = 5f;
+    
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -27,7 +31,7 @@ public class DragObject : Interactble
         {
             float lerpSpeed = 10f;
             rb.useGravity = false;
-            rb.freezeRotation = true;
+           rb.freezeRotation = true;
            Vector3 newPos = Vector3.Lerp(transform.position, grabpoint.transform.position,Time.deltaTime * lerpSpeed);
             rb.MovePosition(newPos);
         }
@@ -50,6 +54,6 @@ public class DragObject : Interactble
     {
         isDraging = !isDraging;
         
-       
     }
+       
 }

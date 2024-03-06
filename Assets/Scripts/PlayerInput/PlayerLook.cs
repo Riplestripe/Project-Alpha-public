@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Windows;
 
 public class PlayerLook : MonoBehaviour
 {
     public Camera cam;
+    public GameObject weaponHolder;
     private float xRotation = 0f;
 
     public float xSensitivity = 30f;
@@ -12,6 +14,16 @@ public class PlayerLook : MonoBehaviour
 
     public bool isLocked = false;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+    private void Update()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
     public void ProcessLook(Vector2 input)
     {
         float mouseY = input.y;

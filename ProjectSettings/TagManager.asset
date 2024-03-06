@@ -9,6 +9,8 @@ TagManager:
   - glass
   - DragPoint
   - Inventory
+  - WeaponHolder
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -61,7 +61,7 @@
                 },
                 {
                     "name": "Shoot",
-                    "type": "PassThrough",
+                    "type": "Button",
                     "id": "38835524-5fb2-423e-bd4d-9d9475550d01",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -84,6 +84,33 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reload",
+                    "type": "Button",
+                    "id": "22240ab1-1b99-43e7-b26f-a92a9641dafa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShootBurst",
+                    "type": "Button",
+                    "id": "5570cb5e-49e3-4be9-9a9e-ebd87873ec3c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Zoom/Aim",
+                    "type": "PassThrough",
+                    "id": "4c93bf2d-1042-4ab4-a91e-ecc393480fa7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold",
                     "initialStateCheck": false
                 }
             ],
@@ -338,6 +365,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "Trow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5afa5bd3-3550-4e4d-b783-58584b6904cd",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b2c56ed-591d-4122-89f5-98ffb01942be",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShootBurst",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "92b8aeb5-050d-4d66-b15e-c7b1045d2a1f",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom/Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

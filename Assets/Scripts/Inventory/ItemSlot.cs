@@ -15,7 +15,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     public Sprite itemSprite;
     public bool isFull;
     public string itemDescription;
-
+    public enum Type { Default, Consumable, Weapon, Note }
+    public Type type = Type.Default;
     //=======ITEM SLOT========//
     [SerializeField]
     private TMP_Text quantityText;
@@ -38,12 +39,13 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     {
         inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
     }
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
+    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription, Type type)
     {
         this.itemName = itemName;
         this.quantity = quantity;
         this.itemSprite = itemSprite;
         this.itemDescription = itemDescription;
+        this.type = type;
         isFull = true;
 
         quantityText.text = quantity.ToString();
@@ -56,6 +58,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         if(eventData.button == PointerEventData.InputButton.Left)
         {
             OnLeftClick();
+
         }
 
         if (eventData.button == PointerEventData.InputButton.Right)
@@ -77,5 +80,6 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         itemDescriptionNameText.text = itemName;
         itemDescriptionText.text = itemDescription;
         itemDescriptionImage.sprite = itemSprite;
+       
     }
 }

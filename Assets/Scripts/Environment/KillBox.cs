@@ -1,32 +1,33 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KillBox : MonoBehaviour
 {
-    public bool killPlayer;
-    public bool teleportPlayer;
-    public Transform teleportPoint;
-    GameObject player;
-    public bool inKillBox;
-    private void Update()
-    {
-        
-      
-    }
+    public Transform point;
+    public bool teleport, kill, toPoligon;
     private void OnTriggerEnter(Collider other)
     {
-        other.transform.position = teleportPoint.position;
+        if (toPoligon)
+        {
+            SceneManager.LoadScene("Poligon");
+        }
+        if (teleport)
+        {
+            if (other.CompareTag("Player") && other.TryGetComponent<PlayerMovement>(out var player))
+            {
+                Debug.Log("ping");
+                player.Teleport(point.position, point.rotation);
+                player.transform.eulerAngles = new Vector3(0, 0, 0);
+            }
 
+        }
+
+        if(kill)
+        {
+            other.gameObject.SetActive(false);
+        }
     }
-
-    private void Kill()
-    {
-        
-            player.gameObject.SetActive(false);
-    }
-
-   
 
 }
