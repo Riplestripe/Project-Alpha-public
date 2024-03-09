@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e21e6912-8a53-4316-b187-381bd3a4d26d}">
+		<property name="assetPath">
+			<value>Step/Metall/step_metal_bitcrush_3.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.47020408163265304</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b01d339b-52ae-482a-a83e-d641917ddd7d}</destination>
+		</relationship>
+	</object>
+</objects>

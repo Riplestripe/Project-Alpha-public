@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fc9d051b-5e6c-4938-80d7-2307bd01c553}">
+		<property name="assetPath">
+			<value>Step/Rock/step_rock_bitcrush_4.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.23510204081632652</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b01d339b-52ae-482a-a83e-d641917ddd7d}</destination>
+		</relationship>
+	</object>
+</objects>

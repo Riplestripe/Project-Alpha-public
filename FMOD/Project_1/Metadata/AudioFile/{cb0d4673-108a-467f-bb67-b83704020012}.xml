@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cb0d4673-108a-467f-bb67-b83704020012}">
+		<property name="assetPath">
+			<value>Step/Ground/step_ground_bitcrush_2.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.31346938775510202</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b01d339b-52ae-482a-a83e-d641917ddd7d}</destination>
+		</relationship>
+	</object>
+</objects>

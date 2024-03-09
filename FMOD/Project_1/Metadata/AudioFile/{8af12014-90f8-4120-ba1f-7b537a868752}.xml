@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8af12014-90f8-4120-ba1f-7b537a868752}">
+		<property name="assetPath">
+			<value>Step/Glass/step_glass_bitcrush_1.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.39183673469387753</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b01d339b-52ae-482a-a83e-d641917ddd7d}</destination>
+		</relationship>
+	</object>
+</objects>
