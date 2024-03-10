@@ -1,0 +1,1193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8401443195085757760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Ground/step_ground_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Ground/step_ground_bitcrush_2
+  Guid:
+    Data1: -74661583
+    Data2: 1310431010
+    Data3: 912295053
+    Data4: 905574907
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 313
+--- !u!114 &-8276442508410412376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Metall/step_metal_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Metall/step_metal_bitcrush_1
+  Guid:
+    Data1: -237410275
+    Data2: 1192055993
+    Data3: 308628155
+    Data4: 1123019704
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
+--- !u!114 &-7231572817999988174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Grass/step_grass_2_bitcrush
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Grass/step_grass_2_bitcrush
+  Guid:
+    Data1: 130071999
+    Data2: 1176692038
+    Data3: 1240845218
+    Data4: 291230519
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1044
+--- !u!114 &-6873950716842521384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_thud_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_thud_bitcrush_4
+  Guid:
+    Data1: 1655947224
+    Data2: 1152329841
+    Data3: 1279189151
+    Data4: -650610933
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 548
+--- !u!114 &-6665128655540823796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Ground/step_ground_bitcrush_6
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Ground/step_ground_bitcrush_6
+  Guid:
+    Data1: -1243691470
+    Data2: 1223817454
+    Data3: -704364097
+    Data4: 1351971363
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 287
+--- !u!114 &-6386963079723818236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Grass/step_grass_3_bitcrush
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Grass/step_grass_3_bitcrush
+  Guid:
+    Data1: 2034370819
+    Data2: 1163453546
+    Data3: -71300429
+    Data4: -1038007663
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 809
+--- !u!114 &-6227639636313027261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Project_1/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638455942034097908
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-5734182307254497730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Rock/step_rock_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Rock/step_rock_bitcrush_1
+  Guid:
+    Data1: 735222508
+    Data2: 1186506011
+    Data3: 1305279656
+    Data4: -107778299
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 182
+--- !u!114 &-5121783037525863673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_bitcrush_4
+  Guid:
+    Data1: -947614898
+    Data2: 1223966832
+    Data3: -1827589709
+    Data4: 237459501
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 444
+--- !u!114 &-4103245953082526835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Glass/step_glass_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Glass/step_glass_bitcrush_3
+  Guid:
+    Data1: -2021279022
+    Data2: 1268173961
+    Data3: -1820843110
+    Data4: 1556492497
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 313
+--- !u!114 &-4095205227487890920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Metall/step_metal_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Metall/step_metal_bitcrush_2
+  Guid:
+    Data1: 942702730
+    Data2: 1113302661
+    Data3: -728664898
+    Data4: 1260673321
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 391
+--- !u!114 &-4019639261628360866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Glass/step_glass_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Glass/step_glass_bitcrush_1
+  Guid:
+    Data1: -1900584499
+    Data2: 1264149275
+    Data3: 659871651
+    Data4: -1026222424
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 391
+--- !u!114 &-3690812922576946192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Gravel/step_gravel_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Gravel/step_gravel_bitcrush_3
+  Guid:
+    Data1: 415883994
+    Data2: 1230534108
+    Data3: 1437986728
+    Data4: -1305889484
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
+--- !u!114 &-3226290525569561399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Metall/step_metal_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Metall/step_metal_bitcrush_3
+  Guid:
+    Data1: 1201904960
+    Data2: 1132526221
+    Data3: -505986158
+    Data4: -167118411
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 470
+--- !u!114 &-3094668937072863292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_bitcrush_2
+  Guid:
+    Data1: 547990028
+    Data2: 1103394692
+    Data3: 654738581
+    Data4: 1569320130
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 339
+--- !u!114 &-2741758589111505292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Glass/step_glass_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Glass/step_glass_bitcrush_2
+  Guid:
+    Data1: -1768953056
+    Data2: 1194171111
+    Data3: -625943883
+    Data4: 1440493494
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
+--- !u!114 &-2038079811323081352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_bitcrush_1
+  Guid:
+    Data1: 440282651
+    Data2: 1078863817
+    Data3: 243192984
+    Data4: 1907603403
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 339
+--- !u!114 &-2001961725523227777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Concrete/step_concrete_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Concrete/step_concrete_bitcrush_4
+  Guid:
+    Data1: 1187176953
+    Data2: 1259959678
+    Data3: -297782870
+    Data4: 649144969
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 626
+--- !u!114 &-1989305022230216909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Project_1/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638455942036860667
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1887723644093214926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_creaks_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_creaks_bitcrush_3
+  Guid:
+    Data1: -1562304313
+    Data2: 1196041270
+    Data3: -1186775134
+    Data4: -2130165688
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 365
+--- !u!114 &-1339156828476192024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_creaks_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_creaks_bitcrush_1
+  Guid:
+    Data1: 1122921020
+    Data2: 1328133085
+    Data3: 121427645
+    Data4: -746923134
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 391
+--- !u!114 &-1099564964339571345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Ground/step_ground_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Ground/step_ground_bitcrush_4
+  Guid:
+    Data1: 1530872505
+    Data2: 1128457683
+    Data3: 859393981
+    Data4: 1628032975
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 235
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 4500979343232108152}
+  - {fileID: -1989305022230216909}
+  - {fileID: 8152806205513606501}
+  - {fileID: -6227639636313027261}
+  EditorEvents:
+  - {fileID: 4909203618014972566}
+  - {fileID: -6386963079723818236}
+  - {fileID: 2251964842678474963}
+  - {fileID: -3094668937072863292}
+  - {fileID: -2038079811323081352}
+  - {fileID: -8276442508410412376}
+  - {fileID: -2741758589111505292}
+  - {fileID: 23179314105078011}
+  - {fileID: -8401443195085757760}
+  - {fileID: -6665128655540823796}
+  - {fileID: 3467527391518064281}
+  - {fileID: -1339156828476192024}
+  - {fileID: -3226290525569561399}
+  - {fileID: -5121783037525863673}
+  - {fileID: 8664361600818788065}
+  - {fileID: 8819693024401244689}
+  - {fileID: 7356756944546722661}
+  - {fileID: 4006087640488676682}
+  - {fileID: 789708400777216740}
+  - {fileID: 7154851089263446251}
+  - {fileID: -4095205227487890920}
+  - {fileID: 760850843053060756}
+  - {fileID: 3577591260733562210}
+  - {fileID: 9188372880981044226}
+  - {fileID: 1119534933783558662}
+  - {fileID: 6921517579148842288}
+  - {fileID: 7071852505234843548}
+  - {fileID: 5727781599540792865}
+  - {fileID: -1099564964339571345}
+  - {fileID: 1427935105167491236}
+  - {fileID: -7231572817999988174}
+  - {fileID: -1887723644093214926}
+  - {fileID: -4019639261628360866}
+  - {fileID: -4103245953082526835}
+  - {fileID: 6120906740970390028}
+  - {fileID: -6873950716842521384}
+  - {fileID: -3690812922576946192}
+  - {fileID: -5734182307254497730}
+  - {fileID: -2001961725523227777}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 8152806205513606501}
+  StringsBanks:
+  - {fileID: 4500979343232108152}
+  cacheTime: 638455942036860667
+  cacheVersion: 131616
+--- !u!114 &23179314105078011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Rock/step_rock_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Rock/step_rock_bitcrush_4
+  Guid:
+    Data1: -2080506839
+    Data2: 1128867004
+    Data3: -520655207
+    Data4: 1357021565
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 235
+--- !u!114 &760850843053060756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Rock/step_rock_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Rock/step_rock_bitcrush_2
+  Guid:
+    Data1: 897754255
+    Data2: 1182696299
+    Data3: 1600405390
+    Data4: 1754380536
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 235
+--- !u!114 &789708400777216740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Gravel/step_gravel_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Gravel/step_gravel_bitcrush_2
+  Guid:
+    Data1: -1911881852
+    Data2: 1200262353
+    Data3: 1442380217
+    Data4: 756256128
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
+--- !u!114 &1119534933783558662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_thud_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_thud_bitcrush_2
+  Guid:
+    Data1: 1578014626
+    Data2: 1256286170
+    Data3: 2126346926
+    Data4: 885057745
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
+--- !u!114 &1427935105167491236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Gravel/step_gravel_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Gravel/step_gravel_bitcrush_1
+  Guid:
+    Data1: 1830623163
+    Data2: 1269291643
+    Data3: -2076724060
+    Data4: -907490864
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 391
+--- !u!114 &2251964842678474963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Metall/step_metal_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Metall/step_metal_bitcrush_4
+  Guid:
+    Data1: -1345244411
+    Data2: 1107850403
+    Data3: -1722327402
+    Data4: -1094373025
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 444
+--- !u!114 &3467527391518064281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Rock/step_rock_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Rock/step_rock_bitcrush_3
+  Guid:
+    Data1: 1428008755
+    Data2: 1248742656
+    Data3: -757595205
+    Data4: 613063097
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 182
+--- !u!114 &3577591260733562210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Rock/step_rock_bitcrush_5
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Rock/step_rock_bitcrush_5
+  Guid:
+    Data1: -1645148525
+    Data2: 1173825619
+    Data3: -1273394537
+    Data4: -1956328213
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 208
+--- !u!114 &4006087640488676682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Concrete/step_concrete_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Concrete/step_concrete_bitcrush_3
+  Guid:
+    Data1: -1964855935
+    Data2: 1195292039
+    Data3: 1003752377
+    Data4: 489777764
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 783
+--- !u!114 &4500979343232108152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Project_1/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638455942034018109
+  FileSizes:
+  - Name: 
+    Value: 2506
+  Exists: 1
+--- !u!114 &4909203618014972566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Ground/step_ground_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Ground/step_ground_bitcrush_1
+  Guid:
+    Data1: -708918015
+    Data2: 1327140867
+    Data3: -1218977139
+    Data4: 1630530669
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 287
+--- !u!114 &5727781599540792865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_creaks_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_creaks_bitcrush_2
+  Guid:
+    Data1: -204889672
+    Data2: 1119150172
+    Data3: 309847939
+    Data4: 1309016887
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 313
+--- !u!114 &6120906740970390028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_bitcrush_3
+  Guid:
+    Data1: -1684725037
+    Data2: 1150805815
+    Data3: 798974374
+    Data4: 767974506
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 391
+--- !u!114 &6921517579148842288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_thud_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_thud_bitcrush_3
+  Guid:
+    Data1: -185065294
+    Data2: 1235579615
+    Data3: 1260049312
+    Data4: -1062399712
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 470
+--- !u!114 &7071852505234843548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Ground/step_ground_bitcrush_5
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Ground/step_ground_bitcrush_5
+  Guid:
+    Data1: -778532682
+    Data2: 1157615042
+    Data3: 1402481560
+    Data4: -1626977029
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 313
+--- !u!114 &7154851089263446251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Ground/step_ground_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Ground/step_ground_bitcrush_3
+  Guid:
+    Data1: 1461973383
+    Data2: 1274141206
+    Data3: 39010745
+    Data4: 1809172564
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 287
+--- !u!114 &7356756944546722661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Concrete/step_concrete_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Concrete/step_concrete_bitcrush_2
+  Guid:
+    Data1: 2144831355
+    Data2: 1270570754
+    Data3: 1473523607
+    Data4: 1444726381
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 705
+--- !u!114 &8152806205513606501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Project_1/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638455942033978220
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8664361600818788065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Concrete/step_concrete_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Concrete/step_concrete_bitcrush_1
+  Guid:
+    Data1: -693908908
+    Data2: 1252965586
+    Data3: -691841397
+    Data4: 1884639007
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 705
+--- !u!114 &8819693024401244689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Wood/step_wood_thud_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Wood/step_wood_thud_bitcrush_1
+  Guid:
+    Data1: 516275306
+    Data2: 1287268921
+    Data3: 419973541
+    Data4: -1082015683
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 339
+--- !u!114 &9188372880981044226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Step/Grass/step_grass_1_bitcrush
+  m_EditorClassIdentifier: 
+  Path: event:/Step/Grass/step_grass_1_bitcrush
+  Guid:
+    Data1: -889209963
+    Data2: 1200006813
+    Data3: 301015950
+    Data4: -1853456062
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 548
