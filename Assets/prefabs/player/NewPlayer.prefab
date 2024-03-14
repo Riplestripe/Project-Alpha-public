@@ -458,6 +458,9 @@ MonoBehaviour:
   selectShader: {fileID: 8242934235985237231}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &408498960214134681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,6 +1290,9 @@ MonoBehaviour:
   selectShader: {fileID: 2665794132165405435}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &884100971969128579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1785,9 @@ MonoBehaviour:
   selectShader: {fileID: 6870423281692146667}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &977364465945142668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,6 +2065,9 @@ MonoBehaviour:
   selectShader: {fileID: 6598319881989071540}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &1122341394730224984
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,6 +2242,9 @@ MonoBehaviour:
   selectShader: {fileID: 8160991596439453621}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &1232171165348829459
 GameObject:
   m_ObjectHideFlags: 0
@@ -3242,6 +3257,7 @@ GameObject:
   - component: {fileID: 4063935833507065586}
   - component: {fileID: 2700066526920223397}
   - component: {fileID: 6300007593126115175}
+  - component: {fileID: -5023311644521276805}
   m_Layer: 7
   m_Name: PlayerCam
   m_TagString: MainCamera
@@ -3382,6 +3398,19 @@ MonoBehaviour:
   zooming: 0
   player: {fileID: 0}
   inputManager: {fileID: 0}
+--- !u!114 &-5023311644521276805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991738369342083769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &2123710057771292833
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,6 +3554,9 @@ MonoBehaviour:
   selectShader: {fileID: 1485404456712123570}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &2127684844341720028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3667,6 +3699,9 @@ MonoBehaviour:
   selectShader: {fileID: 2831057798449731888}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &2338828935319123628
 GameObject:
   m_ObjectHideFlags: 0
@@ -5230,6 +5265,9 @@ MonoBehaviour:
   selectShader: {fileID: 6625703580346582496}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &3247105381852477299
 GameObject:
   m_ObjectHideFlags: 0
@@ -5539,6 +5577,9 @@ MonoBehaviour:
   selectShader: {fileID: 6708157050293231572}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &3378899910039715338
 GameObject:
   m_ObjectHideFlags: 0
@@ -5682,6 +5723,9 @@ MonoBehaviour:
   selectShader: {fileID: 4085607974826069248}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &3561695994147008877
 GameObject:
   m_ObjectHideFlags: 0
@@ -5899,6 +5943,9 @@ MonoBehaviour:
   selectShader: {fileID: 8510264974391337292}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &3901617019827491523
 GameObject:
   m_ObjectHideFlags: 0
@@ -7439,6 +7486,9 @@ MonoBehaviour:
   selectShader: {fileID: 4527459356462080295}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &5260435556193919263
 GameObject:
   m_ObjectHideFlags: 0
@@ -7684,6 +7734,9 @@ MonoBehaviour:
   selectShader: {fileID: 913280347837957234}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &5364343991627168452
 GameObject:
   m_ObjectHideFlags: 0
@@ -8246,6 +8299,9 @@ MonoBehaviour:
   selectShader: {fileID: 7579757646018041202}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &5778798165747562644
 GameObject:
   m_ObjectHideFlags: 0
@@ -8357,6 +8413,9 @@ MonoBehaviour:
   selectShader: {fileID: 5004223072800797062}
   isThisItemSelected: 0
   grabpoint: {fileID: 4247828875292634414}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &5788328336597452762
 GameObject:
   m_ObjectHideFlags: 0
@@ -8909,6 +8968,9 @@ MonoBehaviour:
   selectShader: {fileID: 3561695994147008877}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &6299982089915334541
 GameObject:
   m_ObjectHideFlags: 0
@@ -8990,9 +9052,9 @@ GameObject:
   - component: {fileID: 6378015998551693154}
   - component: {fileID: 6592480058905260440}
   - component: {fileID: 2430593005665088935}
-  - component: {fileID: 5365426833218700192}
   - component: {fileID: 8503140815749046447}
   - component: {fileID: 5896305617384325025}
+  - component: {fileID: 3893298110305192012}
   m_Layer: 7
   m_Name: NewPlayer
   m_TagString: Player
@@ -9194,102 +9256,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 394de4694d89ac643bea8e43a36b6817, type: 3}
   - {fileID: 8300000, guid: 9aa90937b3482ed40aa5f0736d7c94c0, type: 3}
   offsetTimer: 1
---- !u!82 &5365426833218700192
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6391037458183250862}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!54 &8503140815749046447
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9340,6 +9306,37 @@ CapsuleCollider:
   m_Height: 2.47056
   m_Direction: 1
   m_Center: {x: 0, y: 0.73528004, z: 0}
+--- !u!114 &3893298110305192012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6391037458183250862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &6414170014585076960
 GameObject:
   m_ObjectHideFlags: 0
@@ -10354,8 +10351,11 @@ MonoBehaviour:
   - {fileID: 8923358439080422781}
   - {fileID: 299413969772193118}
   - {fileID: 9128359068391369192}
+  hotBar: []
   isCursorActive: 0
   playerLook: {fileID: 6235695621476215890}
+  crossheir: {fileID: 0}
+  textpromt: {fileID: 0}
 --- !u!1 &7579757646018041202
 GameObject:
   m_ObjectHideFlags: 0
@@ -10542,6 +10542,9 @@ MonoBehaviour:
   selectShader: {fileID: 2877822867322227511}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &7642072000598326696
 GameObject:
   m_ObjectHideFlags: 0
@@ -10970,6 +10973,9 @@ MonoBehaviour:
   selectShader: {fileID: 1532337299491338296}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &8160991596439453621
 GameObject:
   m_ObjectHideFlags: 0
@@ -11568,6 +11574,9 @@ MonoBehaviour:
   selectShader: {fileID: 106989075199874228}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &8582558058686244833
 GameObject:
   m_ObjectHideFlags: 0
@@ -11948,6 +11957,9 @@ MonoBehaviour:
   selectShader: {fileID: 1476052649750509855}
   isThisItemSelected: 0
   grabpoint: {fileID: 0}
+  hoverd: 0
+  parent: {fileID: 0}
+  canvasParent: {fileID: 0}
 --- !u!1 &8759576727979036871
 GameObject:
   m_ObjectHideFlags: 0
