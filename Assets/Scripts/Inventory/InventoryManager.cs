@@ -14,14 +14,18 @@ public class InventoryManager : MonoBehaviour
     private InputManager inputManager;
     private GameObject Player;
     public ItemSlot[] itemSlot;
+    public ItemSlot[] hotBar;
     public bool isCursorActive = false;
+    public PlayerLook playerLook;
+    public GameObject crossheir;
+    public GameObject textpromt;
     void Start()
     {
         
         Player = GameObject.FindGameObjectWithTag("Player");
         inputManager = Player.GetComponent<InputManager>();
         audioSource = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
-
+        
     }
 
     // Update is called once per frame
@@ -31,36 +35,45 @@ public class InventoryManager : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            crossheir.SetActive(false);
+            textpromt.SetActive(false);
+        }
+        else
+        {
+            playerLook.isLocked = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            crossheir.SetActive(true);
+            textpromt.SetActive(true);
         }
         InventoryMenu.SetActive(isMenuActive);
 
         if (inputManager.player.Inventory.triggered)
         {   
-            isMenuActive = !isMenuActive;            
-            Player.GetComponent<PlayerLook>().isLocked = !Player.GetComponent<PlayerLook>().isLocked;
+            isMenuActive = !isMenuActive;
+            playerLook.isLocked = !playerLook.isLocked;
 
-                        
             if (isMenuActive)
             {
+                
                 audioSource.PlayOneShot(soundClose);
                 
             }
             else audioSource.PlayOneShot(soundOpen);
-         
+            
 
 
         }
-       
+
     }
 
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription, ItemSlot.Type type)
+    public void AddItem(string itemName, Mesh itemMesh, Material itemMaterial, Vector3 scale, string message, int quantity, Sprite itemSprite, string itemDescription, ItemSlot.Type type)
     {
 
         for (int i = 0; i < itemSlot.Length; i++) 
         {
             if (itemSlot[i].isFull == false)
             {
-                itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription, type);
+                itemSlot[i].AddItem(itemName, itemMesh, itemMaterial, scale, message, quantity, itemSprite, itemDescription, type);
                 return;
             }
             
@@ -73,6 +86,7 @@ public class InventoryManager : MonoBehaviour
         {
             itemSlot[i].selectShader.SetActive(false);
             itemSlot[i].isThisItemSelected = false;
+            
         }
     }
 }

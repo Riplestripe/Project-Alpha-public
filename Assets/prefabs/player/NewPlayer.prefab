@@ -383,10 +383,10 @@ RectTransform:
   - {fileID: 7064468432681212977}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -290}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4715235204181602740
 CanvasRenderer:
@@ -438,19 +438,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 9203937194616675504}
   itemImage: {fileID: 726605755263509618}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 8242934235985237231}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &408498960214134681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,10 +1212,10 @@ RectTransform:
   - {fileID: 2062889536333930692}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -465}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6365700895738398308
 CanvasRenderer:
@@ -1260,19 +1267,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 1652383672616311115}
   itemImage: {fileID: 1242089582477967559}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 2665794132165405435}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &884100971969128579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,10 +1704,10 @@ RectTransform:
   - {fileID: 3593858258839307860}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 125, y: -465}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1329524073858532437
 CanvasRenderer:
@@ -1745,19 +1759,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 1670248637508087386}
   itemImage: {fileID: 4169038744932732399}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 6870423281692146667}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &977364465945142668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,10 +1981,10 @@ RectTransform:
   - {fileID: 6953448364475851367}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 475, y: -640}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7604239869113913200
 CanvasRenderer:
@@ -2015,19 +2036,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 6497685822776152061}
   itemImage: {fileID: 979879595972311299}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 6598319881989071540}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &1122341394730224984
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,10 +2155,10 @@ RectTransform:
   - {fileID: 9080232717724451826}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 825, y: -115}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5738264681588828517
 CanvasRenderer:
@@ -2182,19 +2210,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 7566463990518966225}
   itemImage: {fileID: 4565294823781297278}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 8160991596439453621}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &1232171165348829459
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,9 +2396,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5675455053855542191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 275, y: -271.765}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6175783993239793272
@@ -3415,10 +3450,10 @@ RectTransform:
   - {fileID: 2925334266308208984}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 125, y: -640}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2513864308018084772
 CanvasRenderer:
@@ -3470,19 +3505,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 4298215850609012871}
   itemImage: {fileID: 3526417916082748358}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 1485404456712123570}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &2127684844341720028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,10 +3592,10 @@ RectTransform:
   - {fileID: 1206216835291199329}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -640}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5949435947641413470
 CanvasRenderer:
@@ -3605,19 +3647,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 9525736176069374}
   itemImage: {fileID: 2770980644557103143}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 2831057798449731888}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &2338828935319123628
 GameObject:
   m_ObjectHideFlags: 0
@@ -5106,10 +5155,10 @@ RectTransform:
   - {fileID: 6482219889953941344}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 650, y: -115}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4271126803932392120
 CanvasRenderer:
@@ -5161,19 +5210,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 327679721634676086}
   itemImage: {fileID: 4731413537700635385}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 6625703580346582496}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &3247105381852477299
 GameObject:
   m_ObjectHideFlags: 0
@@ -5408,10 +5464,10 @@ RectTransform:
   - {fileID: 8876739304916628261}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 300, y: -640}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1591890621446356300
 CanvasRenderer:
@@ -5463,19 +5519,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 2334052645933261006}
   itemImage: {fileID: 5819666608596176468}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 6708157050293231572}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &3378899910039715338
 GameObject:
   m_ObjectHideFlags: 0
@@ -5544,10 +5607,10 @@ RectTransform:
   - {fileID: 1610384815866726714}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 125, y: -290}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &875748260888642387
 CanvasRenderer:
@@ -5599,19 +5662,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 2585420055724582514}
   itemImage: {fileID: 3931977262460345613}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 4085607974826069248}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &3561695994147008877
 GameObject:
   m_ObjectHideFlags: 0
@@ -5754,10 +5824,10 @@ RectTransform:
   - {fileID: 8605531448586277202}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 825, y: -290}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &823186306007391127
 CanvasRenderer:
@@ -5809,19 +5879,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 5272228345114345820}
   itemImage: {fileID: 8109276945752753576}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 8510264974391337292}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &3901617019827491523
 GameObject:
   m_ObjectHideFlags: 0
@@ -5854,9 +5931,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 9097742908131452488}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 300, y: -125}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8114408302887917062
@@ -6766,9 +6843,9 @@ RectTransform:
   - {fileID: 4345276928252308884}
   m_Father: {fileID: 9097742908131452488}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 300, y: -487.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 550, y: 475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7458766373775955028
@@ -7287,10 +7364,10 @@ RectTransform:
   - {fileID: 682702275333409555}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 475, y: -115}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8588893511882272697
 CanvasRenderer:
@@ -7342,19 +7419,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 5830532243731499351}
   itemImage: {fileID: 4560078871532384955}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 4527459356462080295}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &5260435556193919263
 GameObject:
   m_ObjectHideFlags: 0
@@ -7387,9 +7471,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5675455053855542191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 275, y: -34.265}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 68.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &732210546546938079
@@ -7525,10 +7609,10 @@ RectTransform:
   - {fileID: 5088018380521265834}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 825, y: -640}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8286621714597783319
 CanvasRenderer:
@@ -7580,19 +7664,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 7585813523340361763}
   itemImage: {fileID: 4608188013669083723}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 913280347837957234}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &5364343991627168452
 GameObject:
   m_ObjectHideFlags: 0
@@ -8080,10 +8171,10 @@ RectTransform:
   - {fileID: 2633231246090055156}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 475, y: -465}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3921259205850904884
 CanvasRenderer:
@@ -8135,19 +8226,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 1635309701377999345}
   itemImage: {fileID: 2965817446415789085}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 7579757646018041202}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &5778798165747562644
 GameObject:
   m_ObjectHideFlags: 0
@@ -8184,10 +8282,10 @@ RectTransform:
   - {fileID: 2124261449362832266}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 125, y: -115}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3988289310311295704
 CanvasRenderer:
@@ -8239,19 +8337,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 409022307103916958}
   itemImage: {fileID: 4725790278568267051}
+  emptySlot: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 5004223072800797062}
   isThisItemSelected: 0
+  grabpoint: {fileID: 4247828875292634414}
 --- !u!1 &5788328336597452762
 GameObject:
   m_ObjectHideFlags: 0
@@ -8607,7 +8712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3783907864353128724
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8729,10 +8834,10 @@ RectTransform:
   - {fileID: 2487021638726131827}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 825, y: -465}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3656176001304375676
 CanvasRenderer:
@@ -8784,19 +8889,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 4781392709414473612}
   itemImage: {fileID: 695706837356049489}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 3561695994147008877}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &6299982089915334541
 GameObject:
   m_ObjectHideFlags: 0
@@ -10243,6 +10355,7 @@ MonoBehaviour:
   - {fileID: 299413969772193118}
   - {fileID: 9128359068391369192}
   isCursorActive: 0
+  playerLook: {fileID: 6235695621476215890}
 --- !u!1 &7579757646018041202
 GameObject:
   m_ObjectHideFlags: 0
@@ -10354,10 +10467,10 @@ RectTransform:
   - {fileID: 6417916013357980092}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 475, y: -290}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &915097664753503690
 CanvasRenderer:
@@ -10409,19 +10522,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 7816154526759079468}
   itemImage: {fileID: 2950495896078207865}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 2877822867322227511}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &7642072000598326696
 GameObject:
   m_ObjectHideFlags: 0
@@ -10532,9 +10652,9 @@ RectTransform:
   - {fileID: 5675455053855542191}
   m_Father: {fileID: 3783907864353128724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -402.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 600, y: 755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7579502018768620004
@@ -10775,10 +10895,10 @@ RectTransform:
   - {fileID: 488306934899975994}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 300, y: -115}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6098674022415550876
 CanvasRenderer:
@@ -10830,19 +10950,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 8861804757106245922}
   itemImage: {fileID: 2170282324385872840}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 1532337299491338296}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &8160991596439453621
 GameObject:
   m_ObjectHideFlags: 0
@@ -11366,10 +11493,10 @@ RectTransform:
   - {fileID: 5354749785553758336}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 300, y: -290}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3501432241294281097
 CanvasRenderer:
@@ -11421,19 +11548,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 458475335747127916}
   itemImage: {fileID: 2749953539864818561}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 106989075199874228}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &8582558058686244833
 GameObject:
   m_ObjectHideFlags: 0
@@ -11739,10 +11873,10 @@ RectTransform:
   - {fileID: 3275586155288007985}
   m_Father: {fileID: 6123900741123821717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 300, y: -465}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6144334945765780164
 CanvasRenderer:
@@ -11794,19 +11928,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684c6d97851697e48962e85cff62937e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
   itemName: 
   quantity: 0
   itemSprite: {fileID: 0}
   isFull: 0
   itemDescription: 
   type: 0
+  itemMesh: {fileID: 0}
+  itemMaterial: {fileID: 0}
+  message: 
+  scale: {x: 0, y: 0, z: 0}
   quantityText: {fileID: 2012381663859558511}
   itemImage: {fileID: 7683559023588701377}
+  emptySlot: {fileID: 0}
   itemDescriptionImage: {fileID: 1202419247449724375}
   itemDescriptionNameText: {fileID: 3481419374649999338}
   itemDescriptionText: {fileID: 7365304818180014506}
   selectShader: {fileID: 1476052649750509855}
   isThisItemSelected: 0
+  grabpoint: {fileID: 0}
 --- !u!1 &8759576727979036871
 GameObject:
   m_ObjectHideFlags: 0
@@ -12384,9 +12525,9 @@ RectTransform:
   - {fileID: 9126084746237383762}
   m_Father: {fileID: 3783907864353128724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 500, y: -402.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 950, y: 755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8903090779027106774

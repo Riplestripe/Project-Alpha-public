@@ -11,13 +11,12 @@ public class PickUpGun : Interactble
     public Transform player, weaponeHolder, cam;
     private InputManager inputManager;
     public float dropForwardForce, dropUpwardForce;
-
+    public InventoryManager inventoryManager;
     public bool equiped;
     public static bool slotFull;
 
     private void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
         cam = GameObject.FindGameObjectWithTag("MainCamera").transform;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         weaponeHolder = GameObject.FindGameObjectWithTag("WeaponHolder").transform;

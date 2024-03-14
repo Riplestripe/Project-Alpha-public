@@ -5,6 +5,7 @@ using Unity.Mathematics;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.ProBuilder;
 using UnityEngine.Rendering;
 public class Item : Interactble
 {
@@ -16,13 +17,25 @@ public class Item : Interactble
     public ItemSlot.Type type;
 
     [SerializeField]
-    public string itemname;
+    public string itemName;
 
     [SerializeField]
     public int quantity;
 
     [SerializeField]
-    public Sprite sprite;
+    public Sprite itemSprite;
+
+    [SerializeField]
+    public Mesh itemMesh;
+     
+    [SerializeField]
+    public Material itemMaterial;
+
+    [SerializeField]
+    public string message;
+
+    [SerializeField]
+    public Vector3 scale;
 
     [TextArea]
     [SerializeField]
@@ -54,8 +67,8 @@ public class Item : Interactble
         rb = GetComponent<Rigidbody>();
         PlayerLook = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerLook>();
         camera = GameObject.FindGameObjectWithTag("MainCamera");
-
-
+        message = promtMessage;
+        scale = this.transform.localScale;
     }
     private void Update()
     {
@@ -80,7 +93,6 @@ public class Item : Interactble
                 // store mouse
                 _mouseReference = Input.mousePosition;
             }
-                PlayerLook.isLocked = true;
                 time -= Time.deltaTime;
                 float lerpSpeed = 10f;
                 rb.useGravity = false;
@@ -95,7 +107,7 @@ public class Item : Interactble
 
                 if (inputManager.player.Interact.triggered)
                 {
-                    inventoryManager.AddItem(itemname, quantity, sprite, itemDescription, type);
+                    inventoryManager.AddItem(itemName, itemMesh, itemMaterial,scale, message, quantity, itemSprite, itemDescription, type);
                     audioSource.PlayOneShot(sound);
                     Destroy(gameObject);
                     time = 5f;
@@ -108,7 +120,6 @@ public class Item : Interactble
         }
         if (!inHands)
         {
-            PlayerLook.isLocked = false;
             time = 5f;
             rb.useGravity = true;
             rb.freezeRotation = false;
@@ -119,7 +130,7 @@ public class Item : Interactble
     {
         if (type != ItemSlot.Type.Note)
         {
-            inventoryManager.AddItem(itemname, quantity, sprite, itemDescription, type);
+            inventoryManager.AddItem(itemName, itemMesh, itemMaterial,scale, message, quantity, itemSprite, itemDescription, type);
             audioSource.PlayOneShot(sound);
             Destroy(gameObject);
         }

@@ -26,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
         UnityEngine.Cursor.visible = false;
     }
     void Start()
