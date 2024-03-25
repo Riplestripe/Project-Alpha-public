@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 using System;
 using static UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing;
 
-public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler, IPointerEnterHandler, IPointerExitHandler
+public class ItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
     public Vector3 offset;
     //=======ITEM DATA========//
@@ -18,10 +18,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
     public string itemDescription;
     public enum Type { Default, Consumable, Weapon, Note }
     public Type type = Type.Default;
-    public Mesh itemMesh;
-    public Material itemMaterial;
     public string message;
     public Vector3 scale;
+    public GameObject objRef;
     //=======ITEM SLOT========//
     [SerializeField]
     private TMP_Text quantityText;
@@ -41,26 +40,39 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
     public bool isThisItemSelected;
 
     private InventoryManager inventoryManager;
+    private InputManager inputManager;
     public GameObject grabpoint;
     Vector3 oldPos;
-    Transform parentDrag;
     public bool hoverd = false;
     public Transform parent;
-    public Transform canvasParent;
+    private Transform rootParent;
+    public bool hotbar;
+    public int hotbarIndex = -1;
+
     private void Start()
     {
         inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
+        inputManager = GameObject.FindGameObjectWithTag("Player").GetComponent<InputManager>();
     }
-   
-    public void AddItem(string itemName, Mesh itemMesh, Material itemMaterial, Vector3 scale, string message, int quantity, Sprite itemSprite, string itemDescription, Type type)
+    private void Update()
+    {
+        if (isThisItemSelected && inputManager.player.Trow.triggered) DropItem();
+        if (isThisItemSelected)
+        {
+            selectShader.SetActive(true);
+            itemDescriptionNameText.text = itemName;
+            itemDescriptionText.text = itemDescription;
+            itemDescriptionImage.sprite = itemSprite;
+        }
+    }
+    public void AddItem(string itemName, Vector3 scale, string message, int quantity, Sprite itemSprite, string itemDescription, Type type, GameObject objRef)
     {
         this.itemName = itemName;
         this.quantity = quantity;
         this.itemSprite = itemSprite;
         this.itemDescription = itemDescription;
         this.type = type;
-        this.itemMesh = itemMesh;
-        this.itemMaterial = itemMaterial;
+        this.objRef = objRef;
         this.message = message;
         this.scale = scale;
         isFull = true;
@@ -70,67 +82,22 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
         itemImage.sprite = itemSprite;
     }
 
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        if (eventData.button == PointerEventData.InputButton.Left)
-        {
-            OnLeftClick();
-
-        }
-
-        if (eventData.button == PointerEventData.InputButton.Right)
-        {
-            OnRightClick();
-        }
-    }
-
+   
     private void OnRightClick()
     {
-        DropIten();
+        DropItem();
 
     }
 
-    private void DropIten()
+    public void DropItem()
     {
-        GameObject itemToDrop = new GameObject(itemName);
-        Item newItem = itemToDrop.AddComponent<Item>();
-        itemToDrop.AddComponent<Rigidbody>();
-        MeshRenderer material = itemToDrop.AddComponent<MeshRenderer>();
-        MeshFilter mesh = itemToDrop.AddComponent<MeshFilter>();
-        itemToDrop.transform.localScale = scale;
-        itemToDrop.transform.position = grabpoint.transform.position;
-        itemToDrop.AddComponent<BoxCollider>();
-        itemToDrop.layer = LayerMask.NameToLayer("Usable");
-        newItem.itemName = itemName;
-        newItem.quantity = quantity;
-        newItem.itemSprite = itemSprite;
-        newItem.itemDescription = itemDescription;
-        newItem.type = type;
-        newItem.itemMesh = itemMesh;
-        newItem.itemMaterial = itemMaterial;
-        newItem.promtMessage = message;
-        material.material = itemMaterial;
-        mesh.mesh = itemMesh;
-
+       objRef.SetActive(true);
+        objRef.GetComponent<PickUpGun>().Drop();
+        ClearSlot();
         isFull = false;
 
-        ClearSlot();
 
     }
-
-    private void OnLeftClick()
-    {
-        inventoryManager.DeSelectSlots();
-        selectShader.SetActive(true);
-        isThisItemSelected = true;
-        itemDescriptionNameText.text = itemName;
-        itemDescriptionText.text = itemDescription;
-        itemDescriptionImage.sprite = itemSprite;
-        if(!isFull) itemDescriptionImage.sprite = emptySlot;
-
-
-    }
-
 
     void ClearSlot()
     {
@@ -140,8 +107,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
         this.itemSprite = null;
         this.itemDescription = null;
         this.type = default;
-        this.itemMesh = null;
-        this.itemMaterial = null;
+        this.objRef = null;
         this.message = null;
         itemDescriptionNameText.text = null;
         itemDescriptionText.text = null;
@@ -149,13 +115,20 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
         isFull = false;
         itemImage.sprite = emptySlot;
     }
-    
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         oldPos = this.transform.position;
         gameObject.GetComponent<Image>().raycastTarget = false;
         transform.SetAsFirstSibling();
-         
+        if (hotbar)
+        {
+            rootParent = transform.parent;
+            transform.SetParent(parent);
+            transform.SetAsFirstSibling();
+
+        }
+
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -174,33 +147,37 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
     {
         gameObject.GetComponent<Image>().raycastTarget = true;
         this.transform.position = oldPos;
-       
+        if (hotbar)
+        {
+            transform.SetParent(rootParent);
+
+        }
+
     }
 
     public void OnDrop(PointerEventData eventData)
-    { 
-        
-     GameObject itemDropped = eventData.pointerDrag;
-     ItemSlot itemData = itemDropped.GetComponent<ItemSlot>();
-     for (int i = 0; i < inventoryManager.itemSlot.Length; i++)
-            {
+    {
+
+        GameObject itemDropped = eventData.pointerDrag;
+        ItemSlot itemData = itemDropped.GetComponent<ItemSlot>();
+        for (int i = 0; i < inventoryManager.itemSlot.Length; i++)
+        {
             if (inventoryManager.itemSlot[i].hoverd == true)
             {
                 if (itemData.isFull && !inventoryManager.itemSlot[i].isFull)
                 {
-                    inventoryManager.itemSlot[i].AddItem(itemData.itemName, itemData.itemMesh, itemData.itemMaterial, itemData.scale,
-                       itemData.message, itemData.quantity, itemData.itemSprite, itemData.itemDescription, itemData.type);
-
+                    inventoryManager.itemSlot[i].AddItem(itemData.itemName, itemData.scale, itemData.message, itemData.quantity, itemData.itemSprite, itemData.itemDescription, itemData.type, itemData.objRef);
+                    itemData.ClearSlot();
                 }
                 else return;
             }
-            }
-           itemData.ClearSlot();
-        
+        }
+
+
     }
     public void OnPointerEnter(PointerEventData eventData)
     {
-        
+
         hoverd = true;
     }
 
@@ -208,6 +185,29 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, 
     {
         hoverd = false;
     }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        if (eventData.button == PointerEventData.InputButton.Left)
+        {
+            OnLeftClick();
+
+        }
+
+        if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            OnRightClick();
+        }
+    }
+    public void OnLeftClick()
+    {
+        inventoryManager.DeSelectSlots();
+        isThisItemSelected = true;
+
+
+    }
+
+   
 }
 
     

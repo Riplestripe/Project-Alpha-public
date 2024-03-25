@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class PickUpGun : Interactble
+public class PickUpGun : MonoBehaviour
 {
-    public Gun gunScript;
+    public Gun gunScript = null;
     Rigidbody rb;
     public new BoxCollider collider;
     public Transform player, weaponeHolder, cam;
@@ -14,7 +15,6 @@ public class PickUpGun : Interactble
     public InventoryManager inventoryManager;
     public bool equiped;
     public static bool slotFull;
-
     private void Start()
     {
         cam = GameObject.FindGameObjectWithTag("MainCamera").transform;
@@ -23,7 +23,7 @@ public class PickUpGun : Interactble
         inputManager = GameObject.FindGameObjectWithTag("Player").GetComponent<InputManager>();
         rb = GetComponent<Rigidbody>();
         collider = GetComponent<BoxCollider>();
-
+        
         if (!equiped)
         {
             gunScript.enabled = false;
@@ -37,23 +37,11 @@ public class PickUpGun : Interactble
             collider.isTrigger = true;
         }
         
-    }
-    private void Update()
-    {
-        if (equiped && inputManager.player.Trow.triggered) Drop();
+    }  
       
-      
-    }
-    protected override void Interact()
-    {
-        if(!equiped && !slotFull)
-        {
-            PickUp();
+    
 
-        }
-    }
-
-    private void PickUp()
+    public void PickUp()
     {
         transform.position = weaponeHolder.position;
         transform.parent = weaponeHolder;
@@ -65,8 +53,9 @@ public class PickUpGun : Interactble
         rb.isKinematic = true;
         collider.isTrigger = true;
         gunScript.enabled = true;
+        
     }
-    private void Drop()
+    public void Drop()
     {
         equiped = false;
         slotFull = false;
@@ -81,7 +70,6 @@ public class PickUpGun : Interactble
 
         rb.isKinematic = false;
         collider.isTrigger = false;
-
         gunScript.enabled = false;
     }
 

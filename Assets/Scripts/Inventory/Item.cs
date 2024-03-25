@@ -9,10 +9,7 @@ using UnityEngine.ProBuilder;
 using UnityEngine.Rendering;
 public class Item : Interactble
 {
-    [SerializeField]
-    public AudioClip sound;
-    AudioSource audioSource;
-
+    
     [SerializeField]
     public ItemSlot.Type type;
 
@@ -58,10 +55,13 @@ public class Item : Interactble
     private Vector3 _rotation;
     private bool _isRotating;
 
+    [Header("Gun")]
+    public PickUpGun PickUpGun;
+
+    public GameObject objRef;
     void Start()
     {
         inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
-        audioSource = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
         inputManager = GameObject.FindGameObjectWithTag("Player").GetComponent<InputManager>();
         grabpoint = GameObject.FindGameObjectWithTag("DragPoint");
         rb = GetComponent<Rigidbody>();
@@ -69,6 +69,7 @@ public class Item : Interactble
         camera = GameObject.FindGameObjectWithTag("MainCamera");
         message = promtMessage;
         scale = this.transform.localScale;
+        objRef = this.gameObject;
     }
     private void Update()
     {
@@ -107,8 +108,7 @@ public class Item : Interactble
 
                 if (inputManager.player.Interact.triggered)
                 {
-                    inventoryManager.AddItem(itemName, itemMesh, itemMaterial,scale, message, quantity, itemSprite, itemDescription, type);
-                    audioSource.PlayOneShot(sound);
+                    inventoryManager.AddItem(itemName,scale, message, quantity, itemSprite, itemDescription, type, objRef);
                     Destroy(gameObject);
                     time = 5f;
                     inHands = false;
@@ -128,12 +128,14 @@ public class Item : Interactble
 
     protected override void Interact()
     {
+       
         if (type != ItemSlot.Type.Note)
         {
-            inventoryManager.AddItem(itemName, itemMesh, itemMaterial,scale, message, quantity, itemSprite, itemDescription, type);
-            audioSource.PlayOneShot(sound);
-            Destroy(gameObject);
-        }
+            inventoryManager.AddItem(itemName,scale, message, quantity, itemSprite, itemDescription, type, objRef);
+            inventoryManager.itemsInHand = objRef;
+            inventoryManager.itemsInHand.GetComponent<PickUpGun>().PickUp();
+            gameObject.SetActive(false);
+         }
 
         if (type == ItemSlot.Type.Note)
         {
