@@ -378,7 +378,7 @@ namespace WaterSystem
             _depthTex.name = "WaterDepthMap";
             //do depth capture
             _depthCam.targetTexture = _depthTex;
-            _depthCam.Render();
+            //_depthCam.Render();
             Shader.SetGlobalTexture(WaterDepthMap, _depthTex);
             // set depth bufferParams for depth cam(since it doesnt exist and only temporary)
             var _params = new Vector4(t.position.y, 250, 0, 0);

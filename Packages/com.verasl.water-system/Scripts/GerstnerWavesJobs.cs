@@ -55,10 +55,10 @@ namespace WaterSystem
             _waterHeightHandle.Complete();
 
             //Cleanup native arrays
-            _waveData.Dispose();
-            _positions.Dispose();
-            _wavePos.Dispose();
-            _waveNormal.Dispose();
+            //_waveData.Dispose();
+           // _positions.Dispose();
+            //_wavePos.Dispose();
+            //_waveNormal.Dispose();
         }
 
         public static void UpdateSamplePoints(ref NativeArray<float3> samplePoints, int guid)
