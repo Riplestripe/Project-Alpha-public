@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class SoundsOnContact : MonoBehaviour
 {
-    AudioSource audioSource;
-    public AudioClip[] sounds;
-    private void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
+  //  AudioSource audioSource;
+   // public AudioClip[] sounds;
+  //  private void Start()
+  //  {
+   //     audioSource = GetComponent<AudioSource>();
+  //  }
 
-    private void OnCollisionEnter(Collision collision)
-    {
+   // private void OnCollisionEnter(Collision collision)
+  //  {
 
-        audioSource.PlayOneShot(sounds[Random.Range(0, sounds.Length)]);
+      //  audioSource.PlayOneShot(sounds[Random.Range(0, sounds.Length)]);
 
-    }
+  //  }
 }
