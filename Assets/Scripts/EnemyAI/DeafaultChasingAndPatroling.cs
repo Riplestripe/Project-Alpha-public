@@ -63,8 +63,8 @@ public class DeafaultChasingAndPatroling : MonoBehaviour
         }
 
         if (isChasing || !canSeePlayer) isPatroling = true;
-        if (canSeePlayer || (playerIsAroundSprinting && movement.sprinting)) ChasePlayer();
-       if (playerIsAroundWalking && inputManager.walkPressed && !movement.crouching) ChasePlayer();
+        //if (canSeePlayer || (playerIsAroundSprinting && movement.sprinting)) ChasePlayer();
+      // if (playerIsAroundWalking && inputManager.walkPressed && !movement.crouching) ChasePlayer();
         if (playerIsAround) ChasePlayer();
 
 
