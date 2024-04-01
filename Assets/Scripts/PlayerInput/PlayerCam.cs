@@ -11,7 +11,9 @@ public class PlayerCam : MonoBehaviour
 
     float xRotation;
     float yRotation;
-
+    public float rotAmount = 2f;
+    public Quaternion initialRot;
+    public float smoothRotAmount = 0.25f;
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -19,15 +21,25 @@ public class PlayerCam : MonoBehaviour
     }
     private void Update()
     {
+        CameraRot();
+
         float mousX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
         float mousY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
         xRotation += mousX;
         yRotation -= mousY;
 
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        Vector3 v = transform.rotation.eulerAngles;
 
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        transform.rotation = Quaternion.Euler(xRotation, yRotation, v.y);
         orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+
+    }
+    void CameraRot()
+    {
+        float rotZ = -Input.GetAxis("Horizontal") * rotAmount;
+        Quaternion finalRot = Quaternion.Euler(xRotation, 0, rotZ);
+        transform.localRotation = Quaternion.Lerp(initialRot, finalRot, smoothRotAmount);
 
     }
 }

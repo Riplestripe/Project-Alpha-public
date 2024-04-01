@@ -10,13 +10,13 @@ public class StepsSounds : MonoBehaviour
     AudioSource audioSource;
     float footStepsTimer = 0;
     public float offsetTimer;
-    private PlayerMovement movement;
+   // private PlayerMovement movement;
 
     // Start is called before the first frame update
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
-        movement = GetComponent<PlayerMovement>();
+        //movement = GetComponent<PlayerMovement>();
 
     }
 
