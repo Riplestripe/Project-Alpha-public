@@ -11,8 +11,6 @@ TagManager:
   - Inventory
   - WeaponHolder
   - Enemy
-  - key
-  - PlayerUI
   layers:
   - Default
   - TransparentFX
