@@ -12,7 +12,7 @@ public class PlayerLook : MonoBehaviour
     public float xSensitivity = 30f;
     public float ySensitivity = 30f;
 
-    public bool isLocked = false;
+    public bool isLocked;
     public float rotAmount = 2f;
     public Quaternion initialRot;
     public float smoothRotAmount = 0.25f;

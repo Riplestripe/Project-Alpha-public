@@ -25,17 +25,20 @@ public class PlayerInteract : MonoBehaviour
         // Луч идущий из центра камеры вперед
         Ray ray = new Ray(cam.transform.position, cam.transform.forward);
         RaycastHit hitInfo; // Хранит информацию об объекте который попадает луч
-        if(Physics.Raycast(ray, out hitInfo, distance, layerMask))
+        if (Physics.Raycast(ray, out hitInfo, distance, layerMask))
         {
-            if(hitInfo.collider.GetComponent<Interactble>() != null)
+            if (hitInfo.collider.GetComponent<Interactble>() != null)
             {
                 Interactble interactble = hitInfo.collider.GetComponent<Interactble>();
                 playerUI.UpdateText(interactble.promtMessage);
+                interactble.SelectObject();
                 if (inputManager.player.Interact.triggered)
                 {
                     interactble.BaseInteract();
                 }
             }
+            
         }
+        
     }
 }

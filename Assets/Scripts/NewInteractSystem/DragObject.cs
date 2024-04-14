@@ -26,9 +26,11 @@ public class DragObject : Interactble
     }
     private void Update()
     {
+        DeselectObject();
         playerHeight = playerRef.transform.position.y;
         if (isDraging)
         {
+
             float lerpSpeed = 10f;
             rb.useGravity = false;
            rb.freezeRotation = true;

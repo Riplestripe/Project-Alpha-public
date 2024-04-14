@@ -9,9 +9,10 @@ using UnityEngine.ProBuilder;
 using UnityEngine.Rendering;
 public class Item : Interactble
 {
-    
+
+    [SerializeField] public enum Type { Default, Consumable, Weapon, Note, key }
     [SerializeField]
-    public ItemSlot.Type type;
+    public Item.Type type;
 
     [SerializeField]
     public string itemName;
@@ -108,7 +109,7 @@ public class Item : Interactble
 
                 if (inputManager.player.Interact.triggered)
                 {
-                    inventoryManager.AddItem(itemName,scale, message, quantity, itemSprite, itemDescription, type, objRef);
+                    inventoryManager.AddItem(itemName,scale, message, quantity, itemSprite, itemDescription,type , objRef);
                     Destroy(gameObject);
                     time = 5f;
                     inHands = false;
@@ -129,7 +130,7 @@ public class Item : Interactble
     protected override void Interact()
     {
        
-        if (type != ItemSlot.Type.Note)
+        if (type != Item.Type.Note)
         {
             inventoryManager.AddItem(itemName,scale, message, quantity, itemSprite, itemDescription, type, objRef);
             inventoryManager.itemsInHand = objRef;
@@ -137,7 +138,7 @@ public class Item : Interactble
             gameObject.SetActive(false);
          }
 
-        if (type == ItemSlot.Type.Note)
+        if (type == Type.Note)
         {
             if (time > 0)
             {

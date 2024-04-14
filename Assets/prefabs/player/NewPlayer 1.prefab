@@ -868,7 +868,6 @@ GameObject:
   - component: {fileID: 7632921315388597111}
   - component: {fileID: 2813390717737253428}
   - component: {fileID: 3233316303353493499}
-  - component: {fileID: 8500493445279942864}
   - component: {fileID: 7573185532513602601}
   - component: {fileID: 4623900816996450710}
   - component: {fileID: 5362688823796002034}
@@ -888,7 +887,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559081229687537374}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -646.3, y: 22.27, z: -3101}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -919,6 +918,7 @@ MonoBehaviour:
   jumpPressed: 0
   ShootPressed: 0
   crouchPressed: 0
+  playerSounds: {fileID: 0}
 --- !u!114 &2338543101355195383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,28 +1006,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promtText: {fileID: 4026938184139257751}
---- !u!114 &8500493445279942864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559081229687537374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e6e4b6da62881e458fe42c3cafcaa62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  steps:
-  - {fileID: 8300000, guid: 61142d076bf875c4692687055ae74034, type: 3}
-  - {fileID: 8300000, guid: 1e80c8a70b48d26499a6f11ec02880d5, type: 3}
-  - {fileID: 8300000, guid: 03a8619c607064042a1dd52db2eb51db, type: 3}
-  - {fileID: 8300000, guid: 3112a11b99be5904a9c494e2ba1d4d7f, type: 3}
-  stepsOnGlass:
-  - {fileID: 8300000, guid: 7aec88df4b0db07458d3d6d3383e5fef, type: 3}
-  - {fileID: 8300000, guid: 394de4694d89ac643bea8e43a36b6817, type: 3}
-  - {fileID: 8300000, guid: 9aa90937b3482ed40aa5f0736d7c94c0, type: 3}
-  offsetTimer: 1
 --- !u!54 &7573185532513602601
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1125,21 +1103,18 @@ MonoBehaviour:
   speed: {fileID: 0}
   walkSpeed: 7
   sprintSpeed: 10
-  crouchSpeed: 1
+  crouchSpeed: 4
   groundDrag: 1
   climbSpeed: 1
   jumpForce: 35
   jumpCooldown: 0.25
-  airMultiplier: 4
+  airMultiplier: 2
   fallmultiplayer: 2.5
   lowJumpMultiplier: 2
   cantCrouching: 0
   lerpCrouching: 0
   crouching: 0
   maxSlopeAngle: 45
-  jump: 32
-  sprint: 304
-  crouch: 306
   playerHeight: 1.7
   whayIsGround:
     serializedVersion: 2
@@ -1149,7 +1124,7 @@ MonoBehaviour:
   wallCheck: {x: 0, y: 0}
   slipSpeed: 10
   state: 0
-  climbing: 0
+  onLadder: 0
 --- !u!1 &647652478473237805
 GameObject:
   m_ObjectHideFlags: 0

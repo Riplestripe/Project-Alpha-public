@@ -4,23 +4,28 @@ using UnityEngine;
 
 public class ladder : MonoBehaviour
 {
-    private GameObject player;
-  //  private PlayerMovement PlayerMovement;
-    public float ladderspeed;
-    public float ladderspeedSides = 0.1f;
-    private void Start()
+    private PlayerMovement player;
+    public bool players;
+    private Rigidbody rb;
+    private void OnTriggerEnter(Collider other)
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-     //   PlayerMovement = player.GetComponent<PlayerMovement>();
+        
+        
+           player = other.GetComponent<PlayerMovement>();
+           rb = other.GetComponent<Rigidbody>();
+           player.onLadder = true ;
+           players = true;
+        
     }
 
-    private void OnCollisionStay(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
-       
-            Debug.Log("Ladder");
-    //   PlayerMovement.playerVelocity.y = 0;
-    //   PlayerMovement.playerVelocity.y += PlayerMovement.moveDir.z * ladderspeed;
-     //  PlayerMovement.speed = 1f;
+        
+        
+            players = false;
+        rb.velocity = Vector3.zero;
+            player.onLadder = false;
+        
     }
 }
 

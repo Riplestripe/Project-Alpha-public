@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9135307854817502766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Door/door_wood_open_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Door/door_wood_open_bitcrush_3
+  Guid:
+    Data1: -924792532
+    Data2: 1144336665
+    Data3: -1266223215
+    Data4: -30620385
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1906
 --- !u!114 &-9044582762037557487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,34 +54,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 518556
---- !u!114 &-8770803353206960895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_close_bitcrush_2
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_close_bitcrush_2
-  Guid:
-    Data1: 566086986
-    Data2: 1136026125
-    Data3: 1941374616
-    Data4: -1863188830
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 966
---- !u!114 &-8571049358072963519
+--- !u!114 &-8577015206057128179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81,7 +81,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 992
---- !u!114 &-8430119777779826086
+--- !u!114 &-8411772718830297497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,14 +91,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Paper Bag/paper_bag_touch_bitcrush_1
+  m_Name: event:/Item/Door/door_wood_open_bitcrush_4
   m_EditorClassIdentifier: 
-  Path: event:/Item/Paper Bag/paper_bag_touch_bitcrush_1
+  Path: event:/Item/Door/door_wood_open_bitcrush_4
   Guid:
-    Data1: 1817979722
-    Data2: 1147821104
-    Data3: 919002502
-    Data4: 1121791378
+    Data1: 2000685610
+    Data2: 1307032676
+    Data3: -253664065
+    Data4: -143442770
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 548
+  Length: 1175
 --- !u!114 &-8401443195085757760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 417
---- !u!114 &-8177309330615118803
+--- !u!114 &-7852512428042957669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,14 +172,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trunk/trunk_close_bitcrush_2
+  m_Name: event:/Item/Paper Bag/paper_bag_touch_bitcrush_1
   m_EditorClassIdentifier: 
-  Path: event:/Item/Trunk/trunk_close_bitcrush_2
+  Path: event:/Item/Paper Bag/paper_bag_touch_bitcrush_1
   Guid:
-    Data1: -1671420928
-    Data2: 1307434831
-    Data3: -408458871
-    Data4: 928494870
+    Data1: 1817979722
+    Data2: 1147821104
+    Data3: 919002502
+    Data4: 1121791378
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -188,8 +188,8 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1044
---- !u!114 &-7620968735930246720
+  Length: 548
+--- !u!114 &-7613107949932491563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,6 +216,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1462
+--- !u!114 &-7538292775808331369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Paper Bag/paper_bag_crumple_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Paper Bag/paper_bag_crumple_bitcrush_1
+  Guid:
+    Data1: -51748468
+    Data2: 1080751959
+    Data3: 875702711
+    Data4: -1172215805
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2481
+--- !u!114 &-7330753793471383583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Trunk/trunk_close_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Trunk/trunk_close_bitcrush_1
+  Guid:
+    Data1: -387582134
+    Data2: 1231944512
+    Data3: 816739495
+    Data4: 381350850
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 809
 --- !u!114 &-7231572817999988174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +297,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1044
+--- !u!114 &-7230320946969546052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Key/key_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Key/key_bitcrush_3
+  Guid:
+    Data1: -377048396
+    Data2: 1155584522
+    Data3: -9747023
+    Data4: 23942964
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1044
+--- !u!114 &-7212481296174480829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/glass_bottle_roll_2_bitcrush
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/glass_bottle_roll_2_bitcrush
+  Guid:
+    Data1: 840539543
+    Data2: 1318516793
+    Data3: 1018354873
+    Data4: 1429723126
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2246
 --- !u!114 &-6873950716842521384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,60 +432,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 287
---- !u!114 &-6443059204622577063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_not_open_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_not_open_bitcrush_1
-  Guid:
-    Data1: -781689257
-    Data2: 1238266664
-    Data3: 113839492
-    Data4: -1265697519
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 862
---- !u!114 &-6418962153972120436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Paper Bag/paper_bag_open_bitcrush_2
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Paper Bag/paper_bag_open_bitcrush_2
-  Guid:
-    Data1: 366122144
-    Data2: 1081566873
-    Data3: -1820098888
-    Data4: -1372369328
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1384
 --- !u!114 &-6386963079723818236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,7 +459,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 809
---- !u!114 &-6276252385042968671
+--- !u!114 &-6346786835086638236
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -415,14 +469,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_up_bitcrush
+  m_Name: event:/Item/Paper Bag/paper_bag_touch_bitcrush_3
   m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_up_bitcrush
+  Path: event:/Item/Paper Bag/paper_bag_touch_bitcrush_3
   Guid:
-    Data1: 1998702896
-    Data2: 1082593120
-    Data3: -1914952540
-    Data4: 671443157
+    Data1: 172723518
+    Data2: 1096225126
+    Data3: -467500400
+    Data4: 1314301372
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -431,7 +485,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 548
+  Length: 809
+--- !u!114 &-6274499642158807653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Door/door_wood_close_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Door/door_wood_close_bitcrush_3
+  Guid:
+    Data1: -952032768
+    Data2: 1313462408
+    Data3: -600705104
+    Data4: 1944074924
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1149
 --- !u!114 &-6227639636313027261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,7 +531,7 @@ MonoBehaviour:
   lastModified: 638457060854703384
   FileSizes: []
   Exists: 1
---- !u!114 &-6167412198738893673
+--- !u!114 &-5776533775982919201
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -460,14 +541,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/plastic_bottle_bitcrush_2
+  m_Name: event:/Item/Door/door_wood_not_open_bitcrush_2
   m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/plastic_bottle_bitcrush_2
+  Path: event:/Item/Door/door_wood_not_open_bitcrush_2
   Guid:
-    Data1: 525626247
-    Data2: 1077348755
-    Data3: 207151258
-    Data4: 1195996044
+    Data1: 486829601
+    Data2: 1308452886
+    Data3: -526915436
+    Data4: -1268088767
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -476,61 +557,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2768
---- !u!114 &-6041803090596937827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trunk/trunk_close_bitcrush_3
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Trunk/trunk_close_bitcrush_3
-  Guid:
-    Data1: 1844462150
-    Data2: 1169501421
-    Data3: 1138001794
-    Data4: 1381269810
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 705
---- !u!114 &-5834000750388989335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_roll_3_bitcrush
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_roll_3_bitcrush
-  Guid:
-    Data1: 2101469598
-    Data2: 1189243824
-    Data3: 2193291
-    Data4: 498540454
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1593
+  Length: 835
 --- !u!114 &-5734182307254497730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,34 +612,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 444
---- !u!114 &-4986113806458006562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/plastic_bottle_bitcrush_3
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/plastic_bottle_bitcrush_3
-  Guid:
-    Data1: -981484017
-    Data2: 1097273192
-    Data3: -1996430681
-    Data4: 2131092255
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1071
---- !u!114 &-4655905626953902531
+--- !u!114 &-5112993393212586105
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -639,6 +639,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1619
+--- !u!114 &-5110341567549264441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/plastic_bottle_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/plastic_bottle_bitcrush_1
+  Guid:
+    Data1: 1553652181
+    Data2: 1278516113
+    Data3: 592027817
+    Data4: 252526101
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2351
+--- !u!114 &-4242107812209082536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Key/key_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Key/key_bitcrush_1
+  Guid:
+    Data1: 1537132945
+    Data2: 1167696682
+    Data3: -1792592489
+    Data4: 563308333
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1593
 --- !u!114 &-4103245953082526835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,33 +774,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 391
---- !u!114 &-4002507131037530653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trunk/trunk_close_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Trunk/trunk_close_bitcrush_1
-  Guid:
-    Data1: -387582134
-    Data2: 1231944512
-    Data3: 816739495
-    Data4: 381350850
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 809
 --- !u!114 &-3727412519534280999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,6 +828,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 417
+--- !u!114 &-3399894143792877817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Trash/trash_can_close_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Trash/trash_can_close_bitcrush_2
+  Guid:
+    Data1: 305740539
+    Data2: 1105623530
+    Data3: 1384515476
+    Data4: 768267367
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 992
 --- !u!114 &-3226290525569561399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -855,33 +909,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 339
---- !u!114 &-2923172863158196245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trash/trash_kick_bitcrush_2
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Trash/trash_kick_bitcrush_2
-  Guid:
-    Data1: -1081860919
-    Data2: 1181642074
-    Data3: -225860709
-    Data4: -975735438
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1436
 --- !u!114 &-2741758589111505292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,7 +936,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 417
---- !u!114 &-2723537319556878202
+--- !u!114 &-2450080212479155919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -919,14 +946,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trash/trash_kick_bitcrush_3
+  m_Name: event:/Item/Trash/trash_can_open_bitcrush_2
   m_EditorClassIdentifier: 
-  Path: event:/Item/Trash/trash_kick_bitcrush_3
+  Path: event:/Item/Trash/trash_can_open_bitcrush_2
   Guid:
-    Data1: 1497300890
-    Data2: 1249536835
-    Data3: -145159745
-    Data4: 167752659
+    Data1: -428368418
+    Data2: 1220310961
+    Data3: 2106947487
+    Data4: -1827904576
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -935,34 +962,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1044
---- !u!114 &-2705775349244655877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trunk/trunk_open_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Trunk/trunk_open_bitcrush_1
-  Guid:
-    Data1: -443111157
-    Data2: 1204174353
-    Data3: -513483127
-    Data4: 2038186315
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1332
+  Length: 1097
 --- !u!114 &-2038079811323081352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1116,6 +1116,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8124
+--- !u!114 &-1382576983054432249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Trunk/trunk_open_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Trunk/trunk_open_bitcrush_1
+  Guid:
+    Data1: -443111157
+    Data2: 1204174353
+    Data3: -513483127
+    Data4: 2038186315
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1332
 --- !u!114 &-1339156828476192024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,7 +1170,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 391
---- !u!114 &-1326559776836716802
+--- !u!114 &-1328477357493910335
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1153,14 +1180,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Key/key_bitcrush_4
+  m_Name: event:/Item/Door/door_wood_not_open_bitcrush_1
   m_EditorClassIdentifier: 
-  Path: event:/Item/Key/key_bitcrush_4
+  Path: event:/Item/Door/door_wood_not_open_bitcrush_1
   Guid:
-    Data1: 10595646
-    Data2: 1077978194
-    Data3: 136604841
-    Data4: 1989677230
+    Data1: -781689257
+    Data2: 1238266664
+    Data3: 113839492
+    Data4: -1265697519
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -1169,7 +1196,88 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 783
+  Length: 862
+--- !u!114 &-1273989941711193922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Trunk/trunk_close_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Trunk/trunk_close_bitcrush_2
+  Guid:
+    Data1: -1671420928
+    Data2: 1307434831
+    Data3: -408458871
+    Data4: 928494870
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1044
+--- !u!114 &-1255239051896412684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Trash/trash_kick_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Trash/trash_kick_bitcrush_3
+  Guid:
+    Data1: 1497300890
+    Data2: 1249536835
+    Data3: -145159745
+    Data4: 167752659
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1044
+--- !u!114 &-1203883752507799079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/glass_bottle_broke_bitcrush
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/glass_bottle_broke_bitcrush
+  Guid:
+    Data1: 586368876
+    Data2: 1259121029
+    Data3: -2027026801
+    Data4: 26937772
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1018
 --- !u!114 &-1099564964339571345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1197,6 +1305,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 235
+--- !u!114 &-1003305012318430349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Paper Bag/paper_bag_open_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Paper Bag/paper_bag_open_bitcrush_1
+  Guid:
+    Data1: 1030668755
+    Data2: 1206436424
+    Data3: -1205409399
+    Data4: 1165845205
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1567
 --- !u!114 &-961615369013969727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1286,87 +1421,6 @@ MonoBehaviour:
   - Wood_creaks
   - Wood_thud
   Exists: 1
---- !u!114 &-659218718756617269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Paper Bag/paper_bag_touch_bitcrush_2
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Paper Bag/paper_bag_touch_bitcrush_2
-  Guid:
-    Data1: -815272362
-    Data2: 1267739461
-    Data3: 1959414967
-    Data4: 211392376
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1906
---- !u!114 &-512828158143717147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_open_bitcrush_2
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_open_bitcrush_2
-  Guid:
-    Data1: -1888103756
-    Data2: 1338189035
-    Data3: -1213861233
-    Data4: -148577701
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1280
---- !u!114 &-442157954034559099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Key/key_bitcrush_3
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Key/key_bitcrush_3
-  Guid:
-    Data1: -377048396
-    Data2: 1155584522
-    Data3: -9747023
-    Data4: 23942964
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1044
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1437,51 +1491,51 @@ MonoBehaviour:
   - {fileID: -6753959829911967151}
   - {fileID: -1676834019814209821}
   - {fileID: 1200966045349017912}
-  - {fileID: 6479567563130825752}
-  - {fileID: -8177309330615118803}
-  - {fileID: 6799981694421037333}
-  - {fileID: -2705775349244655877}
-  - {fileID: -4986113806458006562}
-  - {fileID: -7620968735930246720}
-  - {fileID: 8843903248359653074}
-  - {fileID: 2494897180343892890}
-  - {fileID: 599132790972770184}
-  - {fileID: 7035179274512475412}
-  - {fileID: 2009708197215138793}
-  - {fileID: 3662416667533191037}
-  - {fileID: -6276252385042968671}
-  - {fileID: 2709435316679762754}
-  - {fileID: 6926788998590284906}
-  - {fileID: 4383668975618395653}
-  - {fileID: -1326559776836716802}
-  - {fileID: -6041803090596937827}
-  - {fileID: -8430119777779826086}
-  - {fileID: 6809277815612421159}
-  - {fileID: -8770803353206960895}
-  - {fileID: -4002507131037530653}
-  - {fileID: -659218718756617269}
-  - {fileID: -6443059204622577063}
-  - {fileID: 2533666594915595991}
-  - {fileID: -8571049358072963519}
-  - {fileID: 4918129663677079948}
-  - {fileID: 8280735214964546442}
-  - {fileID: -6167412198738893673}
-  - {fileID: -4655905626953902531}
-  - {fileID: 5911309201016154581}
-  - {fileID: 287043484461317341}
-  - {fileID: 550297103275346790}
-  - {fileID: -2723537319556878202}
-  - {fileID: -5834000750388989335}
-  - {fileID: -6418962153972120436}
-  - {fileID: -442157954034559099}
-  - {fileID: -512828158143717147}
-  - {fileID: 6106696999339071062}
-  - {fileID: -2923172863158196245}
-  - {fileID: 8029603075394392659}
-  - {fileID: 5741878563859556842}
-  - {fileID: 1265802064080817883}
-  - {fileID: 7998448558537612049}
-  - {fileID: 6685460060128294904}
+  - {fileID: -6274499642158807653}
+  - {fileID: -1273989941711193922}
+  - {fileID: 1024457670532156008}
+  - {fileID: -1382576983054432249}
+  - {fileID: 1904122631020514567}
+  - {fileID: -7613107949932491563}
+  - {fileID: 2256027960799708559}
+  - {fileID: 7909750760241421394}
+  - {fileID: 7173735094162621761}
+  - {fileID: -5776533775982919201}
+  - {fileID: -8411772718830297497}
+  - {fileID: -9135307854817502766}
+  - {fileID: 1350396887388399803}
+  - {fileID: 1508059559822724595}
+  - {fileID: 7899281262218847471}
+  - {fileID: -6346786835086638236}
+  - {fileID: 8634335840791746200}
+  - {fileID: 493669555147756030}
+  - {fileID: -7852512428042957669}
+  - {fileID: 7560327946803770062}
+  - {fileID: 5472000517879879937}
+  - {fileID: -7330753793471383583}
+  - {fileID: 7847585496540111438}
+  - {fileID: -1328477357493910335}
+  - {fileID: 3932093718688805935}
+  - {fileID: -8577015206057128179}
+  - {fileID: -1203883752507799079}
+  - {fileID: 8949771416293259319}
+  - {fileID: 8366495063678733468}
+  - {fileID: -5112993393212586105}
+  - {fileID: -7538292775808331369}
+  - {fileID: -4242107812209082536}
+  - {fileID: -7212481296174480829}
+  - {fileID: -1255239051896412684}
+  - {fileID: 4343630649712653393}
+  - {fileID: 3591098959867364474}
+  - {fileID: -7230320946969546052}
+  - {fileID: 5651372507329005425}
+  - {fileID: 3212384752105729703}
+  - {fileID: 7703499254663304245}
+  - {fileID: -1003305012318430349}
+  - {fileID: -5110341567549264441}
+  - {fileID: -2450080212479155919}
+  - {fileID: 3697180611395335009}
+  - {fileID: -3399894143792877817}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8152806205513606501}
@@ -1516,7 +1570,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 235
---- !u!114 &287043484461317341
+--- !u!114 &493669555147756030
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1526,14 +1580,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Key/key_bitcrush_1
+  m_Name: event:/Item/Trunk/trunk_close_bitcrush_3
   m_EditorClassIdentifier: 
-  Path: event:/Item/Key/key_bitcrush_1
+  Path: event:/Item/Trunk/trunk_close_bitcrush_3
   Guid:
-    Data1: 1537132945
-    Data2: 1167696682
-    Data3: -1792592489
-    Data4: 563308333
+    Data1: 1844462150
+    Data2: 1169501421
+    Data3: 1138001794
+    Data4: 1381269810
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -1542,61 +1596,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1593
---- !u!114 &550297103275346790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_roll_2_bitcrush
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_roll_2_bitcrush
-  Guid:
-    Data1: 840539543
-    Data2: 1318516793
-    Data3: 1018354873
-    Data4: 1429723126
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2246
---- !u!114 &599132790972770184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_roll_1_bitcrush
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_roll_1_bitcrush
-  Guid:
-    Data1: 1546273311
-    Data2: 1231201156
-    Data3: -1837023356
-    Data4: -1070587578
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1697
+  Length: 705
 --- !u!114 &760850843053060756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1651,6 +1651,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 417
+--- !u!114 &1024457670532156008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Trash/trash_kick_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Trash/trash_kick_bitcrush_1
+  Guid:
+    Data1: -318849017
+    Data2: 1199472058
+    Data3: -719683157
+    Data4: 614939845
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1697
 --- !u!114 &1119534933783558662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1705,7 +1732,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 518556
---- !u!114 &1265802064080817883
+--- !u!114 &1350396887388399803
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1715,14 +1742,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trash/trash_can_open_bitcrush_2
+  m_Name: event:/Item/Bottle/glass_bottle_up_bitcrush
   m_EditorClassIdentifier: 
-  Path: event:/Item/Trash/trash_can_open_bitcrush_2
+  Path: event:/Item/Bottle/glass_bottle_up_bitcrush
   Guid:
-    Data1: -428368418
-    Data2: 1220310961
-    Data3: 2106947487
-    Data4: -1827904576
+    Data1: 1998702896
+    Data2: 1082593120
+    Data3: -1914952540
+    Data4: 671443157
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -1731,7 +1758,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1097
+  Length: 548
 --- !u!114 &1427935105167491236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1759,7 +1786,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 391
---- !u!114 &2009708197215138793
+--- !u!114 &1508059559822724595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1769,14 +1796,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_open_bitcrush_4
+  m_Name: event:/Item/Door/door_wood_open_bitcrush_1
   m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_open_bitcrush_4
+  Path: event:/Item/Door/door_wood_open_bitcrush_1
   Guid:
-    Data1: 2000685610
-    Data2: 1307032676
-    Data3: -253664065
-    Data4: -143442770
+    Data1: -1909938127
+    Data2: 1278418639
+    Data3: -546573905
+    Data4: -447018156
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -1785,7 +1812,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1175
+  Length: 1828
+--- !u!114 &1904122631020514567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/plastic_bottle_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/plastic_bottle_bitcrush_3
+  Guid:
+    Data1: -981484017
+    Data2: 1097273192
+    Data3: -1996430681
+    Data4: 2131092255
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1071
 --- !u!114 &2251964842678474963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,7 +1867,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 444
---- !u!114 &2494897180343892890
+--- !u!114 &2256027960799708559
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1823,14 +1877,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trash/trash_can_close_bitcrush_1
+  m_Name: event:/Item/Bottle/glass_bottle_water_bitcrush
   m_EditorClassIdentifier: 
-  Path: event:/Item/Trash/trash_can_close_bitcrush_1
+  Path: event:/Item/Bottle/glass_bottle_water_bitcrush
   Guid:
-    Data1: -2096315878
-    Data2: 1153864171
-    Data3: 2122320523
-    Data4: 884826517
+    Data1: -342843631
+    Data2: 1189604284
+    Data3: 1175262634
+    Data4: 1449354842
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -1839,8 +1893,8 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1227
---- !u!114 &2533666594915595991
+  Length: 2011
+--- !u!114 &3212384752105729703
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1850,14 +1904,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Key/key_bitcrush_2
+  m_Name: event:/Item/Bottle/glass_bottle_open_bitcrush
   m_EditorClassIdentifier: 
-  Path: event:/Item/Key/key_bitcrush_2
+  Path: event:/Item/Bottle/glass_bottle_open_bitcrush
   Guid:
-    Data1: -574380968
-    Data2: 1293408112
-    Data3: -978317151
-    Data4: -1470359448
+    Data1: -1291141442
+    Data2: 1173207715
+    Data3: 1506260146
+    Data4: 132296314
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -1866,34 +1920,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1071
---- !u!114 &2709435316679762754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_open_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_open_bitcrush_1
-  Guid:
-    Data1: -1909938127
-    Data2: 1278418639
-    Data3: -546573905
-    Data4: -447018156
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1828
+  Length: 391
 --- !u!114 &3467527391518064281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1948,7 +1975,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 208
---- !u!114 &3662416667533191037
+--- !u!114 &3591098959867364474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1958,14 +1985,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_open_bitcrush_3
+  m_Name: event:/Item/Paper Bag/paper_bag_open_bitcrush_2
   m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_open_bitcrush_3
+  Path: event:/Item/Paper Bag/paper_bag_open_bitcrush_2
   Guid:
-    Data1: -924792532
-    Data2: 1144336665
-    Data3: -1266223215
-    Data4: -30620385
+    Data1: 366122144
+    Data2: 1081566873
+    Data3: -1820098888
+    Data4: -1372369328
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -1974,7 +2001,61 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1906
+  Length: 1384
+--- !u!114 &3697180611395335009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/plastic_bottle_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/plastic_bottle_bitcrush_4
+  Guid:
+    Data1: 1144511968
+    Data2: 1302929382
+    Data3: 218422190
+    Data4: 1616305822
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1071
+--- !u!114 &3932093718688805935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Key/key_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Key/key_bitcrush_2
+  Guid:
+    Data1: -574380968
+    Data2: 1293408112
+    Data3: -978317151
+    Data4: -1470359448
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1071
 --- !u!114 &4006087640488676682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2002,7 +2083,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 783
---- !u!114 &4383668975618395653
+--- !u!114 &4343630649712653393
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2012,14 +2093,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Paper Bag/paper_bag_touch_bitcrush_3
+  m_Name: event:/Item/Bottle/glass_bottle_roll_3_bitcrush
   m_EditorClassIdentifier: 
-  Path: event:/Item/Paper Bag/paper_bag_touch_bitcrush_3
+  Path: event:/Item/Bottle/glass_bottle_roll_3_bitcrush
   Guid:
-    Data1: 172723518
-    Data2: 1096225126
-    Data3: -467500400
-    Data4: 1314301372
+    Data1: 2101469598
+    Data2: 1189243824
+    Data3: 2193291
+    Data4: 498540454
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -2028,7 +2109,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 809
+  Length: 1593
 --- !u!114 &4500979343232108152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2076,33 +2157,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 287
---- !u!114 &4918129663677079948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_broke_bitcrush
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_broke_bitcrush
-  Guid:
-    Data1: 586368876
-    Data2: 1259121029
-    Data3: -2027026801
-    Data4: 26937772
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1018
 --- !u!114 &5359950573053329978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2130,6 +2184,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5381
+--- !u!114 &5472000517879879937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Door/door_wood_close_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Door/door_wood_close_bitcrush_2
+  Guid:
+    Data1: 566086986
+    Data2: 1136026125
+    Data3: 1941374616
+    Data4: -1863188830
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 966
+--- !u!114 &5651372507329005425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Door/door_wood_open_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Door/door_wood_open_bitcrush_2
+  Guid:
+    Data1: -1888103756
+    Data2: 1338189035
+    Data3: -1213861233
+    Data4: -148577701
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1280
 --- !u!114 &5727781599540792865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2157,87 +2265,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 313
---- !u!114 &5741878563859556842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/plastic_bottle_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/plastic_bottle_bitcrush_1
-  Guid:
-    Data1: 1553652181
-    Data2: 1278516113
-    Data3: 592027817
-    Data4: 252526101
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2351
---- !u!114 &5911309201016154581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Paper Bag/paper_bag_crumple_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Paper Bag/paper_bag_crumple_bitcrush_1
-  Guid:
-    Data1: -51748468
-    Data2: 1080751959
-    Data3: 875702711
-    Data4: -1172215805
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2481
---- !u!114 &6106696999339071062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_open_bitcrush
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_open_bitcrush
-  Guid:
-    Data1: -1291141442
-    Data2: 1173207715
-    Data3: 1506260146
-    Data4: 132296314
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 391
 --- !u!114 &6120906740970390028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2265,114 +2292,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 391
---- !u!114 &6479567563130825752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_close_bitcrush_3
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_close_bitcrush_3
-  Guid:
-    Data1: -952032768
-    Data2: 1313462408
-    Data3: -600705104
-    Data4: 1944074924
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1149
---- !u!114 &6685460060128294904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trash/trash_can_close_bitcrush_2
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Trash/trash_can_close_bitcrush_2
-  Guid:
-    Data1: 305740539
-    Data2: 1105623530
-    Data3: 1384515476
-    Data4: 768267367
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 992
---- !u!114 &6799981694421037333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trash/trash_kick_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Trash/trash_kick_bitcrush_1
-  Guid:
-    Data1: -318849017
-    Data2: 1199472058
-    Data3: -719683157
-    Data4: 614939845
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1697
---- !u!114 &6809277815612421159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_close_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_close_bitcrush_1
-  Guid:
-    Data1: 1311868490
-    Data2: 1084622064
-    Data3: 2126257853
-    Data4: -563505882
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 888
 --- !u!114 &6867469353267193870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2427,60 +2346,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 470
---- !u!114 &6926788998590284906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_down_bitcrush
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_down_bitcrush
-  Guid:
-    Data1: 1711433784
-    Data2: 1218240303
-    Data3: 29620124
-    Data4: 856817095
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 522
---- !u!114 &7035179274512475412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Door/door_wood_not_open_bitcrush_2
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Door/door_wood_not_open_bitcrush_2
-  Guid:
-    Data1: 486829601
-    Data2: 1308452886
-    Data3: -526915436
-    Data4: -1268088767
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 835
 --- !u!114 &7071852505234843548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2535,6 +2400,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 287
+--- !u!114 &7173735094162621761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/glass_bottle_roll_1_bitcrush
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/glass_bottle_roll_1_bitcrush
+  Guid:
+    Data1: 1546273311
+    Data2: 1231201156
+    Data3: -1837023356
+    Data4: -1070587578
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1697
 --- !u!114 &7356756944546722661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2589,6 +2481,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3108
+--- !u!114 &7560327946803770062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Door/door_wood_close_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Door/door_wood_close_bitcrush_1
+  Guid:
+    Data1: 1311868490
+    Data2: 1084622064
+    Data3: 2126257853
+    Data4: -563505882
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 888
 --- !u!114 &7665859692818832648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2616,6 +2535,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3422
+--- !u!114 &7703499254663304245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Trash/trash_kick_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Trash/trash_kick_bitcrush_2
+  Guid:
+    Data1: -1081860919
+    Data2: 1181642074
+    Data3: -225860709
+    Data4: -975735438
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1436
 --- !u!114 &7799618539014589815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2643,7 +2589,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2063
---- !u!114 &7998448558537612049
+--- !u!114 &7847585496540111438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2653,14 +2599,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/plastic_bottle_bitcrush_4
+  m_Name: event:/Item/Paper Bag/paper_bag_touch_bitcrush_2
   m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/plastic_bottle_bitcrush_4
+  Path: event:/Item/Paper Bag/paper_bag_touch_bitcrush_2
   Guid:
-    Data1: 1144511968
-    Data2: 1302929382
-    Data3: 218422190
-    Data4: 1616305822
+    Data1: -815272362
+    Data2: 1267739461
+    Data3: 1959414967
+    Data4: 211392376
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -2669,8 +2615,8 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1071
---- !u!114 &8029603075394392659
+  Length: 1906
+--- !u!114 &7899281262218847471
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2680,14 +2626,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Paper Bag/paper_bag_open_bitcrush_1
+  m_Name: event:/Item/Bottle/glass_bottle_down_bitcrush
   m_EditorClassIdentifier: 
-  Path: event:/Item/Paper Bag/paper_bag_open_bitcrush_1
+  Path: event:/Item/Bottle/glass_bottle_down_bitcrush
   Guid:
-    Data1: 1030668755
-    Data2: 1206436424
-    Data3: -1205409399
-    Data4: 1165845205
+    Data1: 1711433784
+    Data2: 1218240303
+    Data3: 29620124
+    Data4: 856817095
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -2696,7 +2642,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1567
+  Length: 522
+--- !u!114 &7909750760241421394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Trash/trash_can_close_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Trash/trash_can_close_bitcrush_1
+  Guid:
+    Data1: -2096315878
+    Data2: 1153864171
+    Data3: 2122320523
+    Data4: 884826517
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1227
 --- !u!114 &8152806205513606501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2715,7 +2688,7 @@ MonoBehaviour:
   lastModified: 638457060854693381
   FileSizes: []
   Exists: 1
---- !u!114 &8280735214964546442
+--- !u!114 &8366495063678733468
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2725,14 +2698,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trunk/trunk_open_bitcrush_2
+  m_Name: event:/Item/Bottle/plastic_bottle_bitcrush_2
   m_EditorClassIdentifier: 
-  Path: event:/Item/Trunk/trunk_open_bitcrush_2
+  Path: event:/Item/Bottle/plastic_bottle_bitcrush_2
   Guid:
-    Data1: -1970509457
-    Data2: 1112823343
-    Data3: 1181172642
-    Data4: 403435820
+    Data1: 525626247
+    Data2: 1077348755
+    Data3: 207151258
+    Data4: 1195996044
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -2741,7 +2714,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 966
+  Length: 2768
+--- !u!114 &8634335840791746200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Key/key_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Key/key_bitcrush_4
+  Guid:
+    Data1: 10595646
+    Data2: 1077978194
+    Data3: 136604841
+    Data4: 1989677230
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 783
 --- !u!114 &8664361600818788065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2796,7 +2796,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 339
---- !u!114 &8843903248359653074
+--- !u!114 &8949771416293259319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2806,14 +2806,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_water_bitcrush
+  m_Name: event:/Item/Trunk/trunk_open_bitcrush_2
   m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_water_bitcrush
+  Path: event:/Item/Trunk/trunk_open_bitcrush_2
   Guid:
-    Data1: -342843631
-    Data2: 1189604284
-    Data3: 1175262634
-    Data4: 1449354842
+    Data1: -1970509457
+    Data2: 1112823343
+    Data3: 1181172642
+    Data4: 403435820
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -2822,7 +2822,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2011
+  Length: 966
 --- !u!114 &9188372880981044226
 MonoBehaviour:
   m_ObjectHideFlags: 0

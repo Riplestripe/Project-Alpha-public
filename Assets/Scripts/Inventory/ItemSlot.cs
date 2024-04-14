@@ -16,8 +16,7 @@ public class ItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public Sprite itemSprite;
     public bool isFull;
     public string itemDescription;
-    public enum Type { Default, Consumable, Weapon, Note }
-    public Type type = Type.Default;
+    public Item.Type type = Item.Type.Default;
     public string message;
     public Vector3 scale;
     public GameObject objRef;
@@ -65,7 +64,7 @@ public class ItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
             itemDescriptionImage.sprite = itemSprite;
         }
     }
-    public void AddItem(string itemName, Vector3 scale, string message, int quantity, Sprite itemSprite, string itemDescription, Type type, GameObject objRef)
+    public void AddItem(string itemName, Vector3 scale, string message, int quantity, Sprite itemSprite, string itemDescription, Item.Type type, GameObject objRef)
     {
         this.itemName = itemName;
         this.quantity = quantity;

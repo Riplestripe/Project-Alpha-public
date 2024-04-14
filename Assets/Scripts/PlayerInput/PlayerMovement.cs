@@ -9,6 +9,7 @@ using Input = UnityEngine.Input;
 
 public class PlayerMovement : MonoBehaviour
 {
+    //private PlayerSounds playerSounds;
     public InputManager InputManager;
     public TextMeshProUGUI speed;
     [Header("Movment")]
@@ -37,11 +38,6 @@ public class PlayerMovement : MonoBehaviour
     public float maxSlopeAngle;
     private RaycastHit slopeHit;
 
-    [Header("Keybinds")]
-    public KeyCode jump = KeyCode.Space;
-    public KeyCode sprint = KeyCode.LeftShift;
-    public KeyCode crouch = KeyCode.LeftControl;
-
     [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whayIsGround;
@@ -66,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
         air,
         crouch
     }
-    public bool climbing;
+    public bool onLadder;
     private void Start()
     {
         InputManager = GetComponent<InputManager>();
@@ -128,7 +124,7 @@ public class PlayerMovement : MonoBehaviour
         if(rb.velocity.y < 0)
         {
             rb.velocity += (fallmultiplayer - 1) * Physics.gravity.y * Time.deltaTime * Vector3.up;
-        } else if(rb.velocity.y > 0 && !Input.GetKey(jump))
+        } else if(rb.velocity.y > 0 && !InputManager.player.Jump.triggered)
         {
             rb.velocity += (lowJumpMultiplier - 1) * Physics.gravity.y * Time.deltaTime * Vector3.up;
 
@@ -153,11 +149,8 @@ public class PlayerMovement : MonoBehaviour
     }
     private void StateHandler()
     {
-        if(climbing)
-        {
-            state = MovementState.climbing;
-            movementSpeed = climbSpeed;
-        }
+        
+        
         if(grounded && crouching)
         {
             state = MovementState.crouch;
@@ -168,7 +161,7 @@ public class PlayerMovement : MonoBehaviour
             state = MovementState.walking;
             movementSpeed = walkSpeed;
         }
-        if (grounded && Input.GetKey(sprint) && !crouching)
+        if (grounded && InputManager.player.Sprint.IsPressed() && !crouching)
         {
             state = MovementState.sprinting;
             movementSpeed = sprintSpeed;
@@ -177,12 +170,38 @@ public class PlayerMovement : MonoBehaviour
         {
             state = MovementState.air;
         }
+        if (onLadder)
+        {
+            rb.useGravity = false;
+            state = MovementState.climbing;
+            movementSpeed = climbSpeed;
+            if(verticalInput == 0)
+            {
+                rb.constraints = RigidbodyConstraints.FreezePositionY;
+                rb.freezeRotation = true;
+            }
+            else
+            {
+                rb.constraints = 0;
+                rb.freezeRotation = true;
+            }
+        }
+         else
+        {
+            
+            rb.useGravity = true;
+            rb.constraints = 0;
+            rb.freezeRotation = true;
+
+        }
     }
     public void MovePlayer()
     {
         horizontalInput = InputManager.moveDirection.x;
         verticalInput = InputManager.moveDirection.y;
-        moveDirection =  orientation.forward * verticalInput + orientation.right * horizontalInput;
+       if(state != MovementState.climbing) moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        if(state == MovementState.climbing) moveDirection = orientation.up * verticalInput +orientation.right * horizontalInput;
+
         if (OnSlope())
         {
             rb.AddForce(20f * movementSpeed * GetSlopeMoveDirection(), ForceMode.Force);
@@ -296,7 +315,15 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    /* private void OnFootstep()
+    {
+        playerSounds.PlayFootsteps();
+    }
 
+    private void OnLand()
+    {
+        playerSounds.PlayFootsteps();
+    } */
 
 
 
