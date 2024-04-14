@@ -189,6 +189,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 548
+--- !u!114 &-7683771088643949853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/plastic_bottle_kick_order
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/plastic_bottle_kick_order
+  Guid:
+    Data1: 475977791
+    Data2: 1099250324
+    Data3: 188636554
+    Data4: 1034485421
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 340
+--- !u!114 &-7644922961483647757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/plastic_bottle_kick_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/plastic_bottle_kick_bitcrush_2
+  Guid:
+    Data1: 1704065066
+    Data2: 1135120334
+    Data3: 1304991150
+    Data4: -1508565413
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 261
 --- !u!114 &-7613107949932491563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +297,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2481
+--- !u!114 &-7450740919789543977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/plastic_bottle_kick_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/plastic_bottle_kick_bitcrush_3
+  Guid:
+    Data1: 840477052
+    Data2: 1134680305
+    Data3: 1774031284
+    Data4: 1640229544
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 313
 --- !u!114 &-7330753793471383583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,7 +566,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 809
+  Length: 580
 --- !u!114 &-6274499642158807653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1032,7 +1113,7 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638472447971820111
+  lastModified: 638487106404251545
   FileSizes: []
   Exists: 1
 --- !u!114 &-1962022212316772248
@@ -1331,7 +1412,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1567
+  Length: 940
 --- !u!114 &-961615369013969727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1536,12 +1617,16 @@ MonoBehaviour:
   - {fileID: -2450080212479155919}
   - {fileID: 3697180611395335009}
   - {fileID: -3399894143792877817}
+  - {fileID: -7644922961483647757}
+  - {fileID: -7683771088643949853}
+  - {fileID: 5268038643813873404}
+  - {fileID: -7450740919789543977}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8152806205513606501}
   StringsBanks:
   - {fileID: 4500979343232108152}
-  cacheTime: 638472447971830115
+  cacheTime: 638487106404321393
   cacheVersion: 131616
 --- !u!114 &23179314105078011
 MonoBehaviour:
@@ -2125,10 +2210,10 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638472447971830115
+  lastModified: 638487106404321393
   FileSizes:
   - Name: 
-    Value: 5252
+    Value: 5434
   Exists: 1
 --- !u!114 &4909203618014972566
 MonoBehaviour:
@@ -2157,6 +2242,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 287
+--- !u!114 &5268038643813873404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Bottle/plastic_bottle_kick_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Bottle/plastic_bottle_kick_bitcrush_1
+  Guid:
+    Data1: 583910218
+    Data2: 1129407350
+    Data3: -1435330882
+    Data4: 794145337
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 339
 --- !u!114 &5359950573053329978
 MonoBehaviour:
   m_ObjectHideFlags: 0
