@@ -13,7 +13,7 @@ public class InventoryManager : MonoBehaviour
     public bool isMenuActive;
     private InputManager inputManager;
     private GameObject Player;
-    private GameObject cam;
+    private GameObject itemHolder;
     public ItemSlot[] itemSlot;
     public bool isCursorActive = false;
     public PlayerLook playerLook;
@@ -28,7 +28,7 @@ public class InventoryManager : MonoBehaviour
         
         Player = GameObject.FindGameObjectWithTag("Player");
         inputManager = Player.GetComponent<InputManager>();
-        cam = GameObject.FindGameObjectWithTag("MainCamera");
+        itemHolder = GameObject.FindGameObjectWithTag("PlayerUI");
     }
  
     // Update is called once per frame
@@ -41,9 +41,9 @@ public class InventoryManager : MonoBehaviour
 
             if (Input.mouseScrollDelta.y > 0)
             {
-                for (int i = 0; i < cam.transform.childCount; i++)
+                for (int i = 0; i < itemHolder.transform.childCount; i++)
                 {
-                    cam.transform.GetChild(i).gameObject.SetActive(false);
+                    itemHolder.transform.GetChild(i).gameObject.SetActive(false);
                 }
                 DeSelectSlots();    
                 
@@ -60,6 +60,8 @@ public class InventoryManager : MonoBehaviour
                         {
 
                             itemsInHand = itemSlot[i].objRef;
+                            itemsInHand.transform.localPosition = Vector3.zero;
+                            itemsInHand.transform.localScale = Vector3.one;
                             itemsInHand.SetActive(true);
                             
                         }
@@ -67,7 +69,7 @@ public class InventoryManager : MonoBehaviour
                     if (itemSlot[i].hotbarIndex != hotbarCount && itemSlot[i].isThisItemSelected == true) {
 
                         itemSlot[i].isThisItemSelected = false;
-                            };
+                    }
 
                 }
 
@@ -77,15 +79,11 @@ public class InventoryManager : MonoBehaviour
         
         if(isMenuActive)
         {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
             crossheir.SetActive(false);
             textpromt.SetActive(false);
         }
         else
         {
-            playerLook.isLocked = false;
-            Cursor.lockState = CursorLockMode.Locked;
             crossheir.SetActive(true);
             textpromt.SetActive(true);
            
@@ -95,9 +93,12 @@ public class InventoryManager : MonoBehaviour
         if (inputManager.player.Inventory.triggered)
         {
             isMenuActive = !isMenuActive;
-            playerLook.isLocked = !playerLook.isLocked;
             if (isMenuActive)
             {
+                playerLook.isLocked = true;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+
                 for (int i = 0; i < itemSlot.Length; i++)
                 {
                     if (itemSlot[i].isFull == true && itemSlot[i].hotbar)
@@ -107,11 +108,19 @@ public class InventoryManager : MonoBehaviour
                     }
                 }
             }
-            
-        }
-    }
+            else
+            {
+                playerLook.isLocked = false;
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
 
-    public void AddItem(string itemName, Vector3 scale, string message, int quantity, Sprite itemSprite, string itemDescription, ItemSlot.Type type, GameObject objRef)
+            }
+
+
+        }
+        }
+
+    public void AddItem(string itemName, Vector3 scale, string message, int quantity, Sprite itemSprite, string itemDescription, Item.Type type, GameObject objRef)
     {
         for (int i = 0; i < itemSlot.Length; i++) 
         {

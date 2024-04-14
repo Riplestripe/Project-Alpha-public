@@ -8,33 +8,35 @@ public class PickUpGun : MonoBehaviour
 {
     public Gun gunScript = null;
     Rigidbody rb;
-    public new BoxCollider collider;
-    public Transform player, weaponeHolder, cam;
+    public Collider colliders;
+    public Transform player, weaponeHolder, playerUI;
     private InputManager inputManager;
     public float dropForwardForce, dropUpwardForce;
     public InventoryManager inventoryManager;
     public bool equiped;
     public static bool slotFull;
+    private Item scale;
     private void Start()
     {
-        cam = GameObject.FindGameObjectWithTag("MainCamera").transform;
+        playerUI = GameObject.FindGameObjectWithTag("PlayerUI").transform;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         weaponeHolder = GameObject.FindGameObjectWithTag("WeaponHolder").transform;
         inputManager = GameObject.FindGameObjectWithTag("Player").GetComponent<InputManager>();
         rb = GetComponent<Rigidbody>();
-        collider = GetComponent<BoxCollider>();
+        colliders = GetComponent<Collider>();
+        scale = GetComponent<Item>();
         
         if (!equiped)
         {
             gunScript.enabled = false;
             rb.isKinematic = false;
-            collider.isTrigger = false;
+            GetComponent<Collider>().isTrigger = false;
         }
         if(equiped)
         {
             gunScript.enabled = true;
             rb.isKinematic = true;
-            collider.isTrigger = true;
+            GetComponent<Collider>().isTrigger = true;
         }
         
     }  
@@ -45,13 +47,13 @@ public class PickUpGun : MonoBehaviour
     {
         transform.position = weaponeHolder.position;
         transform.parent = weaponeHolder;
-        transform.rotation = cam.transform.rotation;
+        transform.rotation = playerUI.transform.rotation;
         transform.localScale = Vector3.one;
-        transform.SetParent(cam);
+        transform.SetParent(playerUI);
         equiped = true;
         slotFull = true;
         rb.isKinematic = true;
-        collider.isTrigger = true;
+        colliders.isTrigger = true;
         gunScript.enabled = true;
         
     }
@@ -62,14 +64,13 @@ public class PickUpGun : MonoBehaviour
 
         transform.SetParent(null);
 
-        rb.AddForce(cam.forward * dropForwardForce, ForceMode.Impulse);
-        rb.AddForce(cam.forward * dropUpwardForce, ForceMode.Impulse);
-
+        rb.AddForce(playerUI.forward * dropForwardForce, ForceMode.Impulse);
+        rb.AddForce(playerUI.forward * dropUpwardForce, ForceMode.Impulse);
+        transform.localScale = scale.scale;
         float random = Random.Range(-1f, 1f);
         rb.AddTorque(new Vector3(random, random, random));
-
         rb.isKinematic = false;
-        collider.isTrigger = false;
+        colliders.isTrigger = false;
         gunScript.enabled = false;
     }
 

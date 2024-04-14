@@ -8,29 +8,24 @@ public class DoorInteract : Interactble
     private bool doorOpen;
     private Animator animator;
     public bool isDoorClosed = false;
-    private InventoryManager inventoryManager;
-    private GameObject inventoryCanvas;
-
+    public GameObject Lock;
     private void Awake()
     {
-        inventoryCanvas = GameObject.FindGameObjectWithTag("Inventory");
-        inventoryManager = inventoryCanvas.GetComponent<InventoryManager>();
         animator = GetComponent<Animator>();
 
     }
+    private void Update()
+    {
+        if (Lock.activeInHierarchy)
+        {
+            isDoorClosed = true;
+        }
+        else isDoorClosed = false;
+    }
 
-   
     protected override void Interact()
     {
-        for (int i = 0; i < inventoryManager.itemSlot.Length; i++)
-        {
-            if (inventoryManager.itemSlot[i].itemName == "Rock")
-            {
-                isDoorClosed = false;
-
-            }
-
-        }
+        
 
         if (isDoorClosed == false)
         {
