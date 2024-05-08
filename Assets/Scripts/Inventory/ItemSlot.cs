@@ -98,7 +98,7 @@ public class ItemSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     }
 
-    void ClearSlot()
+    public void ClearSlot()
     {
         quantityText.enabled = false;
         this.itemName = null;
