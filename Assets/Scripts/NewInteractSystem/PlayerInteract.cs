@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +11,9 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField] private LayerMask layerMask;
     private PlayerUI playerUI;
     private InputManager inputManager;
+    public GameObject firstObj;
+    public GameObject secondObj;
+    public Key key;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +21,8 @@ public class PlayerInteract : MonoBehaviour
         playerUI = GetComponent<PlayerUI>();
         inputManager = GetComponent<InputManager>();
     }
-
+    
+   
     // Update is called once per frame
     void Update()
     {

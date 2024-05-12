@@ -9,18 +9,23 @@ public class DoorInteract : Interactble
     private Animator animator;
     public bool isDoorClosed = false;
     public GameObject Lock;
+    float childs;
     private void Awake()
     {
         animator = GetComponent<Animator>();
-
+        childs = transform.parent.childCount;
     }
     private void Update()
     {
-        if (Lock.activeInHierarchy)
+        if (childs == transform.parent.childCount)
         {
             isDoorClosed = true;
         }
-        else isDoorClosed = false;
+        else
+        {
+            isDoorClosed = false;
+         
+        }
     }
 
     protected override void Interact()

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.ProBuilder.MeshOperations;
+using UnityEngine.Rendering;
 
 public class LockInteract : Interactble
 {
@@ -9,66 +11,59 @@ public class LockInteract : Interactble
     public Transform lookPoint;
     public bool lockActive;
     public PlayerLook playerLook;
-    public GameObject[] KeySlots;
     public InventoryManager inventoryManager;
-    public GameObject itemHolder;
-    [SerializeField] Transform freeSlot;
     public GameObject KeyUI;
+    PlayerMovement playerMovement;
+    private void Start()
+    {
+
+        playerMovement = player.GetComponent<PlayerMovement>();
+    }
     private void Update()
     {
-        if (lockActive) playerLook.isLocked = true;
-        FindFreeSlot();
-        EnableKey();
+        if (lockActive)
+        {
+            playerCam.transform.localRotation = Quaternion.Euler(90, 0, 0);
+            playerLook.isLocked = true;
+            
+        }
+     
+        //if(freeSlot != null) EnableKey();
+
     }
     protected override void Interact()
     {
         playerCam.gameObject.GetComponent<HeadbobSystem>().enabled = false;
         playerCam.transform.parent = lookPoint.transform.parent;
-        playerLook.enabled = false;
+        playerLook.enabled = !playerLook.enabled;
         playerCam.transform.localRotation = Quaternion.Euler(90, 0, 0);
         playerCam.transform.position = lookPoint.position;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        lockActive = true;
+        lockActive = !lockActive;
+        playerMovement.enabled = false;
         KeyUI.SetActive(true);
-        KeyFinder();
-
-
-
+ 
+        if (!lockActive)
+        {
+            lockActive = false;
+            DisableKey();
+        }
 
     }
 
-    private void EnableKey()
-    {
-        for (int i = 0; i < KeySlots.Length; i++)
-        {
-            if (KeySlots[i].GetComponent<isFull>().Full)
-            { 
-                KeySlots[i].transform.GetChild(i).localScale = Vector3.one;
-                KeySlots[i].transform.GetChild(i).gameObject.SetActive(true);
-                KeySlots[i].transform.GetChild(i).transform.localPosition = Vector3.zero;
-                KeySlots[i].transform.GetChild(i).gameObject.GetComponent<Key>().enabled = true;
-            }
-        }
-    }
-
-    private void KeyFinder()
-    {
-        for (int i = 0; i < itemHolder.transform.childCount; i++)
-        {
-            itemHolder.transform.GetChild(i).gameObject.transform.SetParent(freeSlot);
-
-        }
+    
+    public void DisableKey()
+    {   
+        
+            playerMovement.enabled = true;
+            playerCam.transform.SetParent(player.transform);
+            Cursor.visible = false;
+            playerCam.gameObject.GetComponent<HeadbobSystem>().enabled = true;
+            playerLook.isLocked = false;
         
     }
 
-    private void FindFreeSlot()
-    {
-        for (int i = 0; i < KeySlots.Length; i++)
-        {
-            if (!KeySlots[i].gameObject.GetComponent<isFull>().Full) freeSlot = KeySlots[i].transform;
-            return;
-        }
-    }
+ 
 }
 

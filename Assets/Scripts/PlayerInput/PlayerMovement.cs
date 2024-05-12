@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public float crouchSpeed;
     public float groundDrag;
     public float climbSpeed;
+    public Transform target;
 
     [Header("Jump")]
     public float jumpForce;
@@ -53,14 +54,17 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
     private CapsuleCollider capsulcollider;
-    public MovementState state; 
+    public MovementState state;
+    public bool inWater;
+    public float swinSpeed;
     public enum MovementState
     {
         walking,
         sprinting,
         climbing,
         air,
-        crouch
+        crouch,
+        inWater
     }
     public bool onLadder;
     private void Start()
@@ -120,14 +124,17 @@ public class PlayerMovement : MonoBehaviour
             rb.drag = groundDrag;
         }
         else rb.drag = 0;
-
-        if(rb.velocity.y < 0)
+        if (state != MovementState.inWater)
         {
-            rb.velocity += (fallmultiplayer - 1) * Physics.gravity.y * Time.deltaTime * Vector3.up;
-        } else if(rb.velocity.y > 0 && !InputManager.player.Jump.triggered)
-        {
-            rb.velocity += (lowJumpMultiplier - 1) * Physics.gravity.y * Time.deltaTime * Vector3.up;
+            if (rb.velocity.y < 0)
+            {
+                rb.velocity += (fallmultiplayer - 1) * Physics.gravity.y * Time.deltaTime * Vector3.up;
+            }
+            else if (rb.velocity.y > 0 && !InputManager.player.Jump.triggered)
+            {
+                rb.velocity += (lowJumpMultiplier - 1) * Physics.gravity.y * Time.deltaTime * Vector3.up;
 
+            }
         }
 
     }
@@ -155,20 +162,32 @@ public class PlayerMovement : MonoBehaviour
         {
             state = MovementState.crouch;
             movementSpeed = crouchSpeed;
+            rb.useGravity = true;
+            rb.constraints = 0;
+            rb.freezeRotation = true;
         }
         if (grounded && !crouching)
         {
             state = MovementState.walking;
             movementSpeed = walkSpeed;
+            rb.useGravity = true;
+            rb.constraints = 0;
+            rb.freezeRotation = true;
         }
         if (grounded && InputManager.player.Sprint.IsPressed() && !crouching)
         {
             state = MovementState.sprinting;
             movementSpeed = sprintSpeed;
+            rb.useGravity = true;
+            rb.constraints = 0;
+            rb.freezeRotation = true;
         }
         if (!grounded && !crouching)
         {
             state = MovementState.air;
+            rb.useGravity = true;
+            rb.constraints = 0;
+            rb.freezeRotation = true;
         }
         if (onLadder)
         {
@@ -185,23 +204,57 @@ public class PlayerMovement : MonoBehaviour
                 rb.constraints = 0;
                 rb.freezeRotation = true;
             }
-        }
-         else
-        {
             
-            rb.useGravity = true;
+        }
+        if(inWater)
+        {
+            state = MovementState.inWater;
+            movementSpeed = swinSpeed;
+            grounded = true;
+           
+            if (InputManager.player.Jump.IsPressed())
+            {
+                
+                rb.AddForce(transform.up * jumpForce *10, ForceMode.Force);
+
+            }
+            if (verticalInput == 0 || horizontalInput == 0)
+            {
+               
+                rb.velocity = Vector3.zero;
+
+            }
+            if (verticalInput != 0 && horizontalInput == 0)
+            {
+
+                movementSpeed *= 2f;
+            }
+            if (verticalInput != 0 && horizontalInput != 0)
+            {
+
+                rb.velocity *= 0.5f;
+            }
+            if (verticalInput == 0 && horizontalInput != 0)
+            {
+
+                movementSpeed *= 2f;
+
+            }
+        }
+        else
+        {
             rb.constraints = 0;
             rb.freezeRotation = true;
-
         }
+
     }
     public void MovePlayer()
     {
         horizontalInput = InputManager.moveDirection.x;
         verticalInput = InputManager.moveDirection.y;
-       if(state != MovementState.climbing) moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+       if(state != MovementState.climbing && state != MovementState.inWater) moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
         if(state == MovementState.climbing) moveDirection = orientation.up * verticalInput +orientation.right * horizontalInput;
-
+        if(state == MovementState.inWater) moveDirection = target.forward * verticalInput + target.right * horizontalInput;
         if (OnSlope())
         {
             rb.AddForce(20f * movementSpeed * GetSlopeMoveDirection(), ForceMode.Force);
@@ -214,7 +267,7 @@ public class PlayerMovement : MonoBehaviour
     private void SpeedControl()
     {
         Vector3 flatVel = new(rb.velocity.x, 0f, rb.velocity.z);
-
+        
         if(flatVel.magnitude > movementSpeed)
         {
             Vector3 limitedVel = flatVel.normalized * movementSpeed;
