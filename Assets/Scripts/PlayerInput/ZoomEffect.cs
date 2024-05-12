@@ -6,11 +6,12 @@ public class ZoomEffect : MonoBehaviour
 {
     Camera m_Camera;
     int normal = 60;
-    int zoom = 20;
+    int zoom = 40;
     float smooth = 5f;
     public bool zooming;
     public GameObject player;
     public InputManager inputManager;
+    public GameObject hands;
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -28,6 +29,7 @@ public class ZoomEffect : MonoBehaviour
         }
         else
         {
+
             m_Camera.fieldOfView = Mathf.Lerp(m_Camera.fieldOfView, normal, Time.deltaTime * smooth);
 
         }

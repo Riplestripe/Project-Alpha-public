@@ -23,6 +23,7 @@ public class InventoryManager : MonoBehaviour
     public int hotbarCount = 0;
     public  GameObject itemsInHand = null;
     public GameObject itemsOutHand = null;
+    public GameObject hands;
     void Start()
     {
         
@@ -63,6 +64,7 @@ public class InventoryManager : MonoBehaviour
                             itemsInHand.transform.localPosition = Vector3.zero;
                             itemsInHand.transform.localScale = Vector3.one;
                             itemsInHand.SetActive(true);
+                            hands.SetActive(true);
                             
                         }
                     }
@@ -137,7 +139,7 @@ public class InventoryManager : MonoBehaviour
     public void DeSelectSlots()
     {
         for(int i = 0;i < itemSlot.Length; i++)
-       {
+       {    
             itemSlot[i].selectShader.SetActive(false);
             itemSlot[i].isThisItemSelected = false;
            
