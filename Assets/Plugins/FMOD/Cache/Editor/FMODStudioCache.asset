@@ -54,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 119275
+--- !u!114 &-8969691656447588034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_Loop
+  Guid:
+    Data1: 729377285
+    Data2: 1108218019
+    Data3: 604078257
+    Data4: -1107184475
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
 --- !u!114 &-8956294773064730390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,14 +122,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Grass/step_grass_1_bitcrush
   Guid:
-    Data1: -889209963
-    Data2: 1200006813
-    Data3: 301015950
-    Data4: -1853456062
+    Data1: 1663063218
+    Data2: 1317381784
+    Data3: 1510904449
+    Data4: -1512316092
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -134,7 +161,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 580
+  Length: 809
 --- !u!114 &-8462500140316016925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,10 +203,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Concrete/step_concrete_bitcrush_3
   Guid:
-    Data1: -1964855935
-    Data2: 1195292039
-    Data3: 1003752377
-    Data4: 489777764
+    Data1: -447732795
+    Data2: 1315679061
+    Data3: -992930422
+    Data4: -2091049633
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 783
+--- !u!114 &-8249948779879199759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_4
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_4
+  Guid:
+    Data1: 1898137708
+    Data2: 1335512295
+    Data3: -692510044
+    Data4: 745721221
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
@@ -284,14 +338,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Gravel/step_gravel_bitcrush_3
   Guid:
-    Data1: 415883994
-    Data2: 1230534108
-    Data3: 1437986728
-    Data4: -1305889484
+    Data1: 2073303325
+    Data2: 1174100450
+    Data3: 2071335093
+    Data4: 30094570
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -365,14 +419,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Ground/step_ground_bitcrush_1
   Guid:
-    Data1: -708918015
-    Data2: 1327140867
-    Data3: -1218977139
-    Data4: 1630530669
+    Data1: -1257439552
+    Data2: 1189265811
+    Data3: -1789609325
+    Data4: 1368164342
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -392,14 +446,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Ground/step_ground_bitcrush_4
   Guid:
-    Data1: 1530872505
-    Data2: 1128457683
-    Data3: 859393981
-    Data4: 1628032975
+    Data1: 2131673663
+    Data2: 1233259017
+    Data3: 204820645
+    Data4: 814618971
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -419,14 +473,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Glass/step_glass_bitcrush_3
   Guid:
-    Data1: -2021279022
-    Data2: 1268173961
-    Data3: -1820843110
-    Data4: 1556492497
+    Data1: -1729409312
+    Data2: 1127687516
+    Data3: -868077405
+    Data4: 715238207
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -446,53 +500,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Glass/step_glass_bitcrush_2
   Guid:
-    Data1: -1768953056
-    Data2: 1194171111
-    Data3: -625943883
-    Data4: 1440493494
+    Data1: 826522130
+    Data2: 1083771169
+    Data3: -71711836
+    Data4: -806630981
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 417
---- !u!114 &-6384009366395798448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/All_Step/All_Step
-  m_EditorClassIdentifier: 
-  Name: All_Step
-  StudioPath: 
-  Min: 0
-  Max: 9
-  Default: 0
-  ID:
-    data1: 2740014364
-    data2: 3457100867
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Concrete
-  - Glass
-  - Grass
-  - Gravel
-  - Ground
-  - Metall
-  - Rock
-  - Wood
-  - Wood_creaks
-  - Wood_thud
-  Exists: 1
 --- !u!114 &-6227639636313027261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,14 +626,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Concrete/step_concrete_bitcrush_4
   Guid:
-    Data1: 1187176953
-    Data2: 1259959678
-    Data3: -297782870
-    Data4: 649144969
+    Data1: 1629176768
+    Data2: 1217453452
+    Data3: -1661895512
+    Data4: 1511845311
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -660,14 +680,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Ground/step_ground_bitcrush_3
   Guid:
-    Data1: 1461973383
-    Data2: 1274141206
-    Data3: 39010745
-    Data4: 1809172564
+    Data1: 482660746
+    Data2: 1158011357
+    Data3: 927796358
+    Data4: 2023155064
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -687,14 +707,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_creaks_bitcrush_1
   Guid:
-    Data1: 1122921020
-    Data2: 1328133085
-    Data3: 121427645
-    Data4: -746923134
+    Data1: 920781381
+    Data2: 1291062340
+    Data3: -1389684332
+    Data4: 690498357
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -741,14 +761,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Metall/step_metal_bitcrush_1
   Guid:
-    Data1: -237410275
-    Data2: 1192055993
-    Data3: 308628155
-    Data4: 1123019704
+    Data1: 1905367049
+    Data2: 1234835483
+    Data3: 1572218788
+    Data4: -1030173638
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -835,33 +855,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 518556
---- !u!114 &-3844630104649308656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Lamp/electricity_lamp_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Lamp/electricity_lamp_bitcrush_1
-  Guid:
-    Data1: -1278665559
-    Data2: 1335208080
-    Data3: 29537922
-    Data4: 1200290832
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 24372
 --- !u!114 &-3760050820485904367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -876,14 +869,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_bitcrush_4
   Guid:
-    Data1: -947614898
-    Data2: 1223966832
-    Data3: -1827589709
-    Data4: 237459501
+    Data1: -1495499611
+    Data2: 1119623851
+    Data3: -217148261
+    Data4: 736399678
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -957,14 +950,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_thud_bitcrush_3
   Guid:
-    Data1: -185065294
-    Data2: 1235579615
-    Data3: 1260049312
-    Data4: -1062399712
+    Data1: 899964252
+    Data2: 1094347537
+    Data3: 1278837163
+    Data4: -229323052
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -984,14 +977,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Rock/step_rock_bitcrush_3
   Guid:
-    Data1: 1428008755
-    Data2: 1248742656
-    Data3: -757595205
-    Data4: 613063097
+    Data1: -1138038675
+    Data2: 1087713543
+    Data3: 81381815
+    Data4: 1278742131
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1038,14 +1031,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Concrete/step_concrete_bitcrush_2
   Guid:
-    Data1: 2144831355
-    Data2: 1270570754
-    Data3: 1473523607
-    Data4: 1444726381
+    Data1: -496631413
+    Data2: 1184748102
+    Data3: 646836659
+    Data4: 243486902
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1119,14 +1112,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_thud_bitcrush_2
   Guid:
-    Data1: 1578014626
-    Data2: 1256286170
-    Data3: 2126346926
-    Data4: 885057745
+    Data1: 1789803049
+    Data2: 1223153281
+    Data3: -1756046914
+    Data4: -1059642116
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1146,14 +1139,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_bitcrush_1
   Guid:
-    Data1: 440282651
-    Data2: 1078863817
-    Data3: 243192984
-    Data4: 1907603403
+    Data1: -1814746467
+    Data2: 1170279107
+    Data3: -1527843184
+    Data4: -491598837
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1185,7 +1178,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 940
+  Length: 1567
 --- !u!114 &-2338094074411347960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,14 +1193,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_creaks_bitcrush_2
   Guid:
-    Data1: -204889672
-    Data2: 1119150172
-    Data3: 309847939
-    Data4: 1309016887
+    Data1: -2090964163
+    Data2: 1262017280
+    Data3: 700796604
+    Data4: 828359757
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1282,7 +1275,7 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638487040412840974
+  lastModified: 638511256743583877
   FileSizes: []
   Exists: 1
 --- !u!114 &-1785247749512091298
@@ -1380,14 +1373,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Rock/step_rock_bitcrush_1
   Guid:
-    Data1: 735222508
-    Data2: 1186506011
-    Data3: 1305279656
-    Data4: -107778299
+    Data1: -58606242
+    Data2: 1273542075
+    Data3: 1956493715
+    Data4: -119333528
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1434,14 +1427,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Rock/step_rock_bitcrush_2
   Guid:
-    Data1: 897754255
-    Data2: 1182696299
-    Data3: 1600405390
-    Data4: 1754380536
+    Data1: -156725124
+    Data2: 1245960606
+    Data3: -625871721
+    Data4: 1099440397
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1488,14 +1481,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Grass/step_grass_3_bitcrush
   Guid:
-    Data1: 2034370819
-    Data2: 1163453546
-    Data3: -71300429
-    Data4: -1038007663
+    Data1: 1749041991
+    Data2: 1120411981
+    Data3: -1543980895
+    Data4: 642739795
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1528,6 +1521,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1906
+--- !u!114 &-1129097726341654607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Lamp/Lamp_Looop
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Lamp/Lamp_Looop
+  Guid:
+    Data1: -1278665559
+    Data2: 1335208080
+    Data3: 29537922
+    Data4: 1200290832
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23872
 --- !u!114 &-1075798873617087731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1596,14 +1616,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Grass/step_grass_2_bitcrush
   Guid:
-    Data1: 130071999
-    Data2: 1176692038
-    Data3: 1240845218
-    Data4: 291230519
+    Data1: 547246256
+    Data2: 1298907699
+    Data3: -424184402
+    Data4: -917908974
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1623,14 +1643,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Concrete/step_concrete_bitcrush_1
   Guid:
-    Data1: -693908908
-    Data2: 1252965586
-    Data3: -691841397
-    Data4: 1884639007
+    Data1: -963504771
+    Data2: 1095647099
+    Data3: 1921535401
+    Data4: -1131428568
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1650,14 +1670,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Rock/step_rock_bitcrush_4
   Guid:
-    Data1: -2080506839
-    Data2: 1128867004
-    Data3: -520655207
-    Data4: 1357021565
+    Data1: 2104878279
+    Data2: 1172686798
+    Data3: 995976363
+    Data4: -1438581012
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1758,47 +1778,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Gravel/step_gravel_bitcrush_1
   Guid:
-    Data1: 1830623163
-    Data2: 1269291643
-    Data3: -2076724060
-    Data4: -907490864
+    Data1: 2028422757
+    Data2: 1175514350
+    Data3: -274756436
+    Data4: -682462524
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 391
---- !u!114 &-77432892968826792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Step/All_Step
-  m_EditorClassIdentifier: 
-  Path: event:/Step/All_Step
-  Guid:
-    Data1: -103310077
-    Data2: 1339254245
-    Data3: 2041342603
-    Data4: 1466909167
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -6384009366395798448}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-28087810143535248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,7 +1840,6 @@ MonoBehaviour:
   - {fileID: 8116125907560547469}
   - {fileID: -7528151846419561438}
   - {fileID: -1264606955403855734}
-  - {fileID: -77432892968826792}
   - {fileID: 8069330432669630628}
   - {fileID: 1334001871930457972}
   - {fileID: 2313618933962214081}
@@ -1954,18 +1945,25 @@ MonoBehaviour:
   - {fileID: 3563431219247686105}
   - {fileID: 4894658187324539979}
   - {fileID: 6800540794850911430}
-  - {fileID: -3844630104649308656}
   - {fileID: 7207068688848416381}
   - {fileID: -9158489859989217629}
   - {fileID: 2822116196828792437}
-  - {fileID: 539137659234495595}
   - {fileID: 5748475348916071571}
+  - {fileID: 6320473138742049174}
+  - {fileID: 1450007769564453809}
+  - {fileID: 8993549995412426316}
+  - {fileID: 926400273027334660}
+  - {fileID: -8249948779879199759}
+  - {fileID: 8014144998471485184}
+  - {fileID: 803688883601921972}
+  - {fileID: -8969691656447588034}
+  - {fileID: -1129097726341654607}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8152806205513606501}
   StringsBanks:
   - {fileID: 4500979343232108152}
-  cacheTime: 638487040413130472
+  cacheTime: 638511256743853429
   cacheVersion: 131616
 --- !u!114 &18254736704729332
 MonoBehaviour:
@@ -1981,14 +1979,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Glass/step_glass_bitcrush_1
   Guid:
-    Data1: -1900584499
-    Data2: 1264149275
-    Data3: 659871651
-    Data4: -1026222424
+    Data1: 773813846
+    Data2: 1152930704
+    Data3: 269882796
+    Data4: -360922616
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -2035,20 +2033,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Rock/step_rock_bitcrush_5
   Guid:
-    Data1: -1645148525
-    Data2: 1173825619
-    Data3: -1273394537
-    Data4: -1956328213
+    Data1: -1434209897
+    Data2: 1213154034
+    Data3: -623119962
+    Data4: 2120493827
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 208
---- !u!114 &539137659234495595
+--- !u!114 &803688883601921972
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2058,9 +2056,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Lamp/electricity_lamp_bitcrush_2
+  m_Name: event:/Item/Electricity/Lamp/electricity_lamp_bitcrush_2
   m_EditorClassIdentifier: 
-  Path: event:/Item/Lamp/electricity_lamp_bitcrush_2
+  Path: event:/Item/Electricity/Lamp/electricity_lamp_bitcrush_2
   Guid:
     Data1: -1976741404
     Data2: 1119481193
@@ -2102,6 +2100,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 522
+--- !u!114 &926400273027334660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_3
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_3
+  Guid:
+    Data1: -169057731
+    Data2: 1177646800
+    Data3: 490430100
+    Data4: -555067153
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 783
 --- !u!114 &1079513619178969269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2143,14 +2168,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_thud_bitcrush_1
   Guid:
-    Data1: 516275306
-    Data2: 1287268921
-    Data3: 419973541
-    Data4: -1082015683
+    Data1: -2033442573
+    Data2: 1144931680
+    Data3: 65427603
+    Data4: -297000087
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -2210,6 +2235,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1697
+--- !u!114 &1450007769564453809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_2
+  Guid:
+    Data1: 863964417
+    Data2: 1218184223
+    Data3: -1945211210
+    Data4: -1109754588
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
 --- !u!114 &1523854392317133225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2224,14 +2276,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_bitcrush_3
   Guid:
-    Data1: -1684725037
-    Data2: 1150805815
-    Data3: 798974374
-    Data4: 767974506
+    Data1: -194743215
+    Data2: 1094303422
+    Data3: -2069216332
+    Data4: 272861536
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -2630,10 +2682,10 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638487040413130472
+  lastModified: 638511256743853429
   FileSizes:
   - Name: 
-    Value: 6104
+    Value: 6398
   Exists: 1
 --- !u!114 &4614177898848761434
 MonoBehaviour:
@@ -2676,14 +2728,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Metall/step_metal_bitcrush_3
   Guid:
-    Data1: 1201904960
-    Data2: 1132526221
-    Data3: -505986158
-    Data4: -167118411
+    Data1: 206344671
+    Data2: 1267848409
+    Data3: 1231598735
+    Data4: -1734646750
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -2784,14 +2836,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Ground/step_ground_bitcrush_6
   Guid:
-    Data1: -1243691470
-    Data2: 1223817454
-    Data3: -704364097
-    Data4: 1351971363
+    Data1: -1346624768
+    Data2: 1170257253
+    Data3: 1826354358
+    Data4: -659898630
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -2811,14 +2863,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Metall/step_metal_bitcrush_2
   Guid:
-    Data1: 942702730
-    Data2: 1113302661
-    Data3: -728664898
-    Data4: 1260673321
+    Data1: -1640896325
+    Data2: 1254186295
+    Data3: -687801929
+    Data4: -1435422814
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -2865,19 +2917,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Gravel/step_gravel_bitcrush_2
   Guid:
-    Data1: -1911881852
-    Data2: 1200262353
-    Data3: 1442380217
-    Data4: 756256128
+    Data1: -1106302987
+    Data2: 1247688071
+    Data3: -127654981
+    Data4: 2134565852
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 417
+--- !u!114 &6320473138742049174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/All_Step_2D
+  m_EditorClassIdentifier: 
+  Path: event:/All_Step_2D
+  Guid:
+    Data1: 1781048431
+    Data2: 1099683570
+    Data3: -565182060
+    Data4: 1663350461
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7440827122341547628}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6407152815739949678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2892,14 +2972,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_bitcrush_2
   Guid:
-    Data1: 547990028
-    Data2: 1103394692
-    Data3: 654738581
-    Data4: 1569320130
+    Data1: 1913125618
+    Data2: 1294879372
+    Data3: 779936136
+    Data4: -1447910476
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -2919,14 +2999,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_creaks_bitcrush_3
   Guid:
-    Data1: -1562304313
-    Data2: 1196041270
-    Data3: -1186775134
-    Data4: -2130165688
+    Data1: -89574967
+    Data2: 1283854638
+    Data3: 24042167
+    Data4: 1532004670
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -3135,14 +3215,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Ground/step_ground_bitcrush_5
   Guid:
-    Data1: -778532682
-    Data2: 1157615042
-    Data3: 1402481560
-    Data4: -1626977029
+    Data1: -2031797722
+    Data2: 1121769084
+    Data3: 1400535691
+    Data4: -1246132852
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -3162,19 +3242,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Wood/step_wood_thud_bitcrush_4
   Guid:
-    Data1: 1655947224
-    Data2: 1152329841
-    Data3: 1279189151
-    Data4: -650610933
+    Data1: 759792785
+    Data2: 1328004319
+    Data3: -1234846075
+    Data4: 1537852626
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 548
+--- !u!114 &7440827122341547628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/All_Step_2D/All_Step
+  m_EditorClassIdentifier: 
+  Name: All_Step
+  StudioPath: 
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 2740014364
+    data2: 3457100867
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Concrete
+  - Glass
+  - Grass
+  - Gravel
+  - Ground
+  - Metall
+  - Rock
+  - Wood
+  - Wood_creaks
+  - Wood_thud
+  Exists: 1
 --- !u!114 &7862646196088286557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3202,6 +3316,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1436
+--- !u!114 &8014144998471485184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_1
+  Guid:
+    Data1: -926194462
+    Data2: 1109380539
+    Data3: -1505618265
+    Data4: -680174242
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
 --- !u!114 &8069330432669630628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3216,14 +3357,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Metall/step_metal_bitcrush_4
   Guid:
-    Data1: -1345244411
-    Data2: 1107850403
-    Data3: -1722327402
-    Data4: -1094373025
+    Data1: 1993936997
+    Data2: 1215746462
+    Data3: -174117188
+    Data4: -1450791617
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -3271,7 +3412,7 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638487040413110499
+  lastModified: 638511256743823213
   FileSizes: []
   Exists: 1
 --- !u!114 &8432055645652776640
@@ -3342,19 +3483,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Step/Ground/step_ground_bitcrush_2
   Guid:
-    Data1: -74661583
-    Data2: 1310431010
-    Data3: 912295053
-    Data4: 905574907
+    Data1: 1623261573
+    Data2: 1118188191
+    Data3: -609256821
+    Data4: -1177169548
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 313
+--- !u!114 &8993549995412426316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_Weather/Lake/Lake
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience_Weather/Lake/Lake
+  Guid:
+    Data1: -929401583
+    Data2: 1251371548
+    Data3: 5345186
+    Data4: -1380465836
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 228127
 --- !u!114 &8993676707655689125
 MonoBehaviour:
   m_ObjectHideFlags: 0

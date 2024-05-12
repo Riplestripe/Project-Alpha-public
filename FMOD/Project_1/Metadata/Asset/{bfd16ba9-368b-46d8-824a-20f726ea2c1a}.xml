@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{bfd16ba9-368b-46d8-824a-20f726ea2c1a}">
+		<property name="assetPath">
+			<value>Items/Electric Panel/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b01d339b-52ae-482a-a83e-d641917ddd7d}</destination>
+		</relationship>
+	</object>
+</objects>
