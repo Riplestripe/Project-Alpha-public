@@ -44,36 +44,36 @@ public class InputManager : MonoBehaviour
     }
     private void Update()
     {
-        if (walkPressed)
-        {
-            animator.SetBool("isWalking", true);
-        }
-        if(player.Sprint.IsPressed())
-        {
-            animator.SetBool("isRunning", true);
-        }
-        if(!walkPressed)
-        {
-            animator.SetBool("isWalking", false);
-        }
-        if(!player.Sprint.IsPressed())
-        {
-            animator.SetBool("isRunning", false);
+        //if (walkPressed)
+        //{
+        //    animator.SetBool("isWalking", true);
+        //}
+        //if(player.Sprint.IsPressed())
+        //{
+        //    animator.SetBool("isRunning", true);
+        //}
+        //if(!walkPressed)
+        //{
+        //    animator.SetBool("isWalking", false);
+        //}
+        //if(!player.Sprint.IsPressed())
+        //{
+        //    animator.SetBool("isRunning", false);
 
-        }
-        if (player.Jump.triggered || player.Jump.IsPressed())
-        {
-            animator.SetBool("isGrounded", false);
+        //}
+        //if (player.Jump.triggered || player.Jump.IsPressed())
+        //{
+        //    animator.SetBool("isGrounded", false);
 
-            animator.SetBool("isJumping", true);
+        //    animator.SetBool("isJumping", true);
 
-        }
-        if (movement.grounded)
-        {
-            animator.SetBool("isGrounded", true);
-            animator.SetBool("isJumping", false);
+        //}
+        //if (movement.grounded)
+        //{
+        //    animator.SetBool("isGrounded", true);
+        //    animator.SetBool("isJumping", false);
 
-        }
+        //}
         if(moveDirection != Vector2.zero)
         {
             playerSounds.PlayFootsteps();
