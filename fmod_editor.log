@@ -7,13 +7,90 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000025E3C77F158 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001C9876707A8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 12268480
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 195328
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000014447BEEE8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA509F3F70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA509F3F30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA509F4050
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA509F4110
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001C851DFEF78
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glass_bottle_roll_2_bitcrush', format=5, channels=2, frequency=48000, lengthbytes=26304, lengthpcm=107833, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.880035.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 12268480
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 195328
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000014447BEEE8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA509F3F70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA509F3F30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA509F4050
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA509F4110
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001C851DFEF78
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glass_bottle_roll_4_bitcrush', format=5, channels=2, frequency=48000, lengthbytes=19328, lengthpcm=77740, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.834900.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 12268480
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 195328
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000014447BEEE8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA509F3F70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA509F3F30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA509F4050
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA509F4110
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001C851DFEF78
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glass_bottle_roll_1_bitcrush', format=5, channels=2, frequency=48000, lengthbytes=20704, lengthpcm=81502, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.532043.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 12268480
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 195328
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000014447BEEE8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA509F3F70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA509F3F30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA509F4050
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA509F4110
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001C851DFEF78
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glass_bottle_roll_3_bitcrush', format=5, channels=2, frequency=48000, lengthbytes=18208, lengthpcm=76486, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.858093.
+[LOG] SoundI::release                          :  (000001C8C0FE7E88)
+[LOG] SoundI::release                          :     glass_bottle_roll_1_bitcrush (000001C84392A688)
+[LOG] SoundI::release                          :  (000001C8C0FE92A8)
+[LOG] SoundI::release                          :     glass_bottle_roll_2_bitcrush (000001C84392B6C8)
+[LOG] SoundI::release                          :  (000001C8C0FE8898)
+[LOG] SoundI::release                          :     glass_bottle_roll_3_bitcrush (000001C843928FC8)
+[LOG] SoundI::release                          :  (000001C8C0FE8CE8)
+[LOG] SoundI::release                          :     glass_bottle_roll_4_bitcrush (000001C843928E28)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
