@@ -14,6 +14,7 @@ public class PlayerInteract : MonoBehaviour
     public GameObject firstObj;
     public GameObject secondObj;
     public Key key;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -33,17 +34,22 @@ public class PlayerInteract : MonoBehaviour
         if (Physics.Raycast(ray, out hitInfo, distance, layerMask))
         {
             if (hitInfo.collider.GetComponent<Interactble>() != null)
-            {
+            { 
                 Interactble interactble = hitInfo.collider.GetComponent<Interactble>();
                 playerUI.UpdateText(interactble.promtMessage);
-                interactble.SelectObject();
+                interactble.looking = true;
+              
+
                 if (inputManager.player.Interact.triggered)
                 {
                     interactble.BaseInteract();
                 }
             }
+             
             
+
+
         }
-        
+
     }
 }

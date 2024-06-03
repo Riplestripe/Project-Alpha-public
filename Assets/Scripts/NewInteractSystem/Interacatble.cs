@@ -8,8 +8,22 @@ public abstract class Interactble : MonoBehaviour
     public string promtMessage;
     public Material defaultMaterial = null;
     public Material selectedMaterial = null;
+    public bool looking;
 
-   
+    private void Update()
+    {
+        if (looking)
+        {
+            SelectObject();
+
+        }
+        else
+        {
+            DeselectObject();
+        }
+        looking = false;
+    }
+
     public void BaseInteract()
     {
         Interact();
@@ -29,6 +43,6 @@ public abstract class Interactble : MonoBehaviour
     {
         this.gameObject.GetComponent<MeshRenderer>().material = defaultMaterial;
     }
+   
 
-    
 }

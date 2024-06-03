@@ -26,7 +26,6 @@ public class DragObject : Interactble
     }
     private void Update()
     {
-        DeselectObject();
         playerHeight = playerRef.transform.position.y;
         if (isDraging)
         {
