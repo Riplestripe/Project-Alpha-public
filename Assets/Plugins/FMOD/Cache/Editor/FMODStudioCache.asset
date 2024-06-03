@@ -501,7 +501,7 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638456988854703384
+  lastModified: 638472325885558591
   FileSizes: []
   Exists: 1
 --- !u!114 &-5820143973530142409
@@ -558,6 +558,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1593
+--- !u!114 &-5266427869526649256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_Weather/Wood/wood_creak_order
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience_Weather/Wood/wood_creak_order
+  Guid:
+    Data1: 653526052
+    Data2: 1193940106
+    Data3: 14294188
+    Data4: -192190758
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16000
 --- !u!114 &-5066002640289194109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1275,7 +1302,7 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638524268866888951
+  lastModified: 638523440707680701
   FileSizes: []
   Exists: 1
 --- !u!114 &-1821689010270169213
@@ -1764,6 +1791,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1227
+--- !u!114 &-451561942561712652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_Weather/Wood/wood_creak_bitcrush_4
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience_Weather/Wood/wood_creak_bitcrush_4
+  Guid:
+    Data1: -582870962
+    Data2: 1136583352
+    Data3: 2031111595
+    Data4: 638931869
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2560
 --- !u!114 &-418603432885669330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1791,6 +1845,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1906
+--- !u!114 &-364803464532510817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_Weather/Wood/wood_creak_bitcrush_1
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience_Weather/Wood/wood_creak_bitcrush_1
+  Guid:
+    Data1: 1806182851
+    Data2: 1162984794
+    Data3: -1291701622
+    Data4: -1765717418
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1959
 --- !u!114 &-364655377025233715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1983,12 +2064,17 @@ MonoBehaviour:
   - {fileID: 1226169092222973430}
   - {fileID: -3810011195957086253}
   - {fileID: 8465542337816511484}
+  - {fileID: -5266427869526649256}
+  - {fileID: 3544695484145975636}
+  - {fileID: -451561942561712652}
+  - {fileID: 1421687405316828273}
+  - {fileID: -364803464532510817}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8152806205513606501}
   StringsBanks:
   - {fileID: 4500979343232108152}
-  cacheTime: 638524268866962634
+  cacheTime: 638523440707680701
   cacheVersion: 131616
 --- !u!114 &18254736704729332
 MonoBehaviour:
@@ -2260,6 +2346,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 450
+--- !u!114 &1421687405316828273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_Weather/Wood/wood_creak_bitcrush_2
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience_Weather/Wood/wood_creak_bitcrush_2
+  Guid:
+    Data1: 15627158
+    Data2: 1147344186
+    Data3: -706602610
+    Data4: -843104777
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1828
 --- !u!114 &1523854392317133225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2530,6 +2643,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1384
+--- !u!114 &3544695484145975636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_Weather/Wood/wood_creak_bitcrush_3
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience_Weather/Wood/wood_creak_bitcrush_3
+  Guid:
+    Data1: 1380804656
+    Data2: 1258232056
+    Data3: 1576801977
+    Data4: -471007416
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2194
 --- !u!114 &3650638187548217338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2626,10 +2766,10 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638524268866962634
+  lastModified: 638523438145185312
   FileSizes:
   - Name: 
-    Value: 6320
+    Value: 6544
   Exists: 1
 --- !u!114 &4558241028394972107
 MonoBehaviour:
@@ -3329,7 +3469,7 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638456988854693381
+  lastModified: 638523438145155354
   FileSizes: []
   Exists: 1
 --- !u!114 &8432055645652776640
