@@ -1,32 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9034706682621609904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Electricity/Electricity_Box/Electricity_Box_3
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Electricity/Electricity_Box/Electricity_Box_3
-  Guid:
-    Data1: -722347423
-    Data2: 1303109698
-    Data3: 1344387005
-    Data4: 636785838
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 783
 --- !u!114 &-8974026976740764344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +107,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 360
+  Length: 809
+--- !u!114 &-8640440459689758448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_2
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_2
+  Guid:
+    Data1: 863964417
+    Data2: 1218184223
+    Data3: -1945211210
+    Data4: -1109754588
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
 --- !u!114 &-8462500140316016925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,33 +189,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 783
---- !u!114 &-8099896025063624613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Electricity/Electricity_Box/Electricity_Box_2
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Electricity/Electricity_Box/Electricity_Box_2
-  Guid:
-    Data1: -30119211
-    Data2: 1319338314
-    Data3: -1833356380
-    Data4: -1447466041
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 417
 --- !u!114 &-8011286598471796374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -501,7 +474,7 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638472325885558591
+  lastModified: 638457024860000000
   FileSizes: []
   Exists: 1
 --- !u!114 &-5820143973530142409
@@ -558,33 +531,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1593
---- !u!114 &-5266427869526649256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience_Weather/Wood/wood_creak_order
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience_Weather/Wood/wood_creak_order
-  Guid:
-    Data1: 653526052
-    Data2: 1193940106
-    Data3: 14294188
-    Data4: -192190758
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 16000
 --- !u!114 &-5066002640289194109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -828,6 +774,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5381
+--- !u!114 &-3925949398070837061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Noise/Elcetricity/electricity_box_1
+  m_EditorClassIdentifier: 
+  Path: event:/Noise/Elcetricity/electricity_box_1
+  Guid:
+    Data1: 1889655019
+    Data2: 1137924124
+    Data3: 929093522
+    Data4: -1937445386
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
 --- !u!114 &-3863058287479821109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -855,33 +828,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 518556
---- !u!114 &-3810011195957086253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Bottle/glass_bottle_kick_order
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Bottle/glass_bottle_kick_order
-  Guid:
-    Data1: 1018463921
-    Data2: 1274430595
-    Data3: 343587725
-    Data4: -1689309303
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2250
 --- !u!114 &-3760050820485904367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1152,6 +1098,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 417
+--- !u!114 &-2876586383960328993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Noise/Elcetricity/electricity_box_4
+  m_EditorClassIdentifier: 
+  Path: event:/Noise/Elcetricity/electricity_box_4
+  Guid:
+    Data1: 1587051489
+    Data2: 1266176787
+    Data3: 1245612934
+    Data4: 498586459
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 783
 --- !u!114 &-2641505603251407518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1206,6 +1179,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1567
+--- !u!114 &-2534113145304762192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Noise/Elcetricity/electricity_box_2
+  m_EditorClassIdentifier: 
+  Path: event:/Noise/Elcetricity/electricity_box_2
+  Guid:
+    Data1: -30119211
+    Data2: 1319338314
+    Data3: -1833356380
+    Data4: -1447466041
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
 --- !u!114 &-2338094074411347960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1302,10 +1302,10 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638523440707680701
+  lastModified: 638518302120000000
   FileSizes: []
   Exists: 1
---- !u!114 &-1821689010270169213
+--- !u!114 &-1806358918496514512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1315,23 +1315,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Electricity/Electricity_Box/Electricity_Box_Cascade
+  m_Name: event:/Noise/Elcetricity/electricity_box_3
   m_EditorClassIdentifier: 
-  Path: event:/Item/Electricity/Electricity_Box/Electricity_Box_Cascade
+  Path: event:/Noise/Elcetricity/electricity_box_3
   Guid:
-    Data1: -1877490639
-    Data2: 1088239120
-    Data3: 1029213879
-    Data4: 952427902
+    Data1: -722347423
+    Data2: 1303109698
+    Data3: 1344387005
+    Data4: 636785838
   Banks:
   - {fileID: -1989305022230216909}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1640
+  Length: 783
 --- !u!114 &-1785247749512091298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 470
+  Length: 1044
 --- !u!114 &-518000326664007009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1791,33 +1791,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1227
---- !u!114 &-451561942561712652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience_Weather/Wood/wood_creak_bitcrush_4
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience_Weather/Wood/wood_creak_bitcrush_4
-  Guid:
-    Data1: -582870962
-    Data2: 1136583352
-    Data3: 2031111595
-    Data4: 638931869
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2560
 --- !u!114 &-418603432885669330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1845,33 +1818,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1906
---- !u!114 &-364803464532510817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience_Weather/Wood/wood_creak_bitcrush_1
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience_Weather/Wood/wood_creak_bitcrush_1
-  Guid:
-    Data1: 1806182851
-    Data2: 1162984794
-    Data3: -1291701622
-    Data4: -1765717418
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1959
 --- !u!114 &-364655377025233715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1899,6 +1845,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 391
+--- !u!114 &-91630831042226003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_1
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_1
+  Guid:
+    Data1: -926194462
+    Data2: 1109380539
+    Data3: -1505618265
+    Data4: -680174242
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 417
 --- !u!114 &-28087810143535248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2057,24 +2030,21 @@ MonoBehaviour:
   - {fileID: 8993549995412426316}
   - {fileID: 803688883601921972}
   - {fileID: -1129097726341654607}
-  - {fileID: -1821689010270169213}
-  - {fileID: -9034706682621609904}
-  - {fileID: -8099896025063624613}
-  - {fileID: 4558241028394972107}
-  - {fileID: 1226169092222973430}
-  - {fileID: -3810011195957086253}
-  - {fileID: 8465542337816511484}
-  - {fileID: -5266427869526649256}
-  - {fileID: 3544695484145975636}
-  - {fileID: -451561942561712652}
-  - {fileID: 1421687405316828273}
-  - {fileID: -364803464532510817}
+  - {fileID: -8640440459689758448}
+  - {fileID: 697779186300462750}
+  - {fileID: 8782535467160151824}
+  - {fileID: -1806358918496514512}
+  - {fileID: 8803431243818338254}
+  - {fileID: -2534113145304762192}
+  - {fileID: -2876586383960328993}
+  - {fileID: -91630831042226003}
+  - {fileID: -3925949398070837061}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8152806205513606501}
   StringsBanks:
   - {fileID: 4500979343232108152}
-  cacheTime: 638523440707680701
+  cacheTime: 638518302120000000
   cacheVersion: 131616
 --- !u!114 &18254736704729332
 MonoBehaviour:
@@ -2157,6 +2127,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 208
+--- !u!114 &697779186300462750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_Loop
+  Guid:
+    Data1: 729377285
+    Data2: 1108218019
+    Data3: 604078257
+    Data4: -1107184475
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
 --- !u!114 &803688883601921972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2265,33 +2262,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 339
---- !u!114 &1226169092222973430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Electricity/Electricity_Box/Electricity_Box_1
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Electricity/Electricity_Box/Electricity_Box_1
-  Guid:
-    Data1: 1889655019
-    Data2: 1137924124
-    Data3: 929093522
-    Data4: -1937445386
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 417
 --- !u!114 &1266810870523628619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2345,34 +2315,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 450
---- !u!114 &1421687405316828273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience_Weather/Wood/wood_creak_bitcrush_2
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience_Weather/Wood/wood_creak_bitcrush_2
-  Guid:
-    Data1: 15627158
-    Data2: 1147344186
-    Data3: -706602610
-    Data4: -843104777
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1828
+  Length: 1697
 --- !u!114 &1523854392317133225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2643,33 +2586,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1384
---- !u!114 &3544695484145975636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience_Weather/Wood/wood_creak_bitcrush_3
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience_Weather/Wood/wood_creak_bitcrush_3
-  Guid:
-    Data1: 1380804656
-    Data2: 1258232056
-    Data3: 1576801977
-    Data4: -471007416
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2194
 --- !u!114 &3650638187548217338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2766,38 +2682,11 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638523438145185312
+  lastModified: 638518302120000000
   FileSizes:
   - Name: 
-    Value: 6544
+    Value: 6398
   Exists: 1
---- !u!114 &4558241028394972107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Electricity/Electricity_Box/Electricity_Box_4
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Electricity/Electricity_Box/Electricity_Box_4
-  Guid:
-    Data1: 1587051489
-    Data2: 1266176787
-    Data3: 1245612934
-    Data4: 498586459
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 783
 --- !u!114 &4614177898848761434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3469,7 +3358,7 @@ MonoBehaviour:
   Path: FMOD/Project_1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638523438145155354
+  lastModified: 638457024860000000
   FileSizes: []
   Exists: 1
 --- !u!114 &8432055645652776640
@@ -3499,33 +3388,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 809
---- !u!114 &8465542337816511484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Item/Trash/trash_kick_lot
-  m_EditorClassIdentifier: 
-  Path: event:/Item/Trash/trash_kick_lot
-  Guid:
-    Data1: -324757198
-    Data2: 1293293721
-    Data3: -962704198
-    Data4: 1778648713
-  Banks:
-  - {fileID: -1989305022230216909}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1050
 --- !u!114 &8488041514665089595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3580,6 +3442,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 313
+--- !u!114 &8782535467160151824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_3
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_3
+  Guid:
+    Data1: -169057731
+    Data2: 1177646800
+    Data3: 490430100
+    Data4: -555067153
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 783
+--- !u!114 &8803431243818338254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Item/Electricity/Electric Panel/electricity_box_4
+  m_EditorClassIdentifier: 
+  Path: event:/Item/Electricity/Electric Panel/electricity_box_4
+  Guid:
+    Data1: 1898137708
+    Data2: 1335512295
+    Data3: -692510044
+    Data4: 745721221
+  Banks:
+  - {fileID: -1989305022230216909}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 783
 --- !u!114 &8993549995412426316
 MonoBehaviour:
   m_ObjectHideFlags: 0
